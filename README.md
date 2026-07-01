@@ -59,4 +59,4 @@ See `docs/00_pipeline_overview.ipynb` for a full pipeline map.
 
 ## Model benchmarking
 
-Open [`notebooks/03_benchmarking.ipynb`](notebooks/03_benchmarking.ipynb) to compare six sentiment models on the labelled test set. On Google Colab, use [Open in Colab](https://colab.research.google.com/github/K2Debug/Financial-News-Sentiment-Analyzer-for-Economic-Forecasting/blob/refactor/colab-local-runtime-cache/notebooks/03_benchmarking.ipynb).
+Open [`notebooks/03_benchmarking.ipynb`](notebooks/03_benchmarking.ipynb) to compare six sentiment models on the labelled test set. On Google Colab, use [Open in Colab](https://colab.research.google.com/github/K2Debug/Financial-News-Sentiment-Analyzer-for-Economic-Forecasting/blob/main/notebooks/03_benchmarking.ipynb).
