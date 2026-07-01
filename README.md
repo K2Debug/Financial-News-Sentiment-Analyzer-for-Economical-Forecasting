@@ -6,7 +6,7 @@ Production classification uses **Groq** (`llama-3.1-8b-instant`) with an 11-cate
 
 > **Model caveat:** Groq is officially decommissioning **Llama 3.1 8B Instant** on **16 August 2026**. If you re-run the classifier on Groq’s free or developer tiers, migrate before that date to avoid interruptions. Groq’s recommended replacement is **`openai/gpt-oss-20b`** (similar speed and strong agentic performance). **`llama-3.3-70b-versatile`** also remains available on Groq as a free-tier alternative. For the best classification quality and stability, a fully paid API key (e.g. OpenAI `gpt-4o-mini` or equivalent) is recommended. See [Groq model deprecation docs](https://console.groq.com/docs/deprecations) for official upgrade paths.
 
-## Setup
+## Setup (local)
 
 1. **Python 3.10+** and Jupyter (VS Code, JupyterLab, or Anaconda).
 2. Install dependencies:
@@ -17,8 +17,6 @@ Production classification uses **Groq** (`llama-3.1-8b-instant`) with an 11-cate
 
    Or run `notebooks/00_setup.ipynb` for guided installs.
 
-   **Google Colab:** [Open `00_setup.ipynb` in Colab](https://colab.research.google.com/github/K2Debug/Financial-News-Sentiment-Analyzer-for-Economic-Forecasting/blob/main/notebooks/00_setup.ipynb) first — it clones the repo to `/content/EF-02` and installs dependencies. Then open and run `01_scraper` through `06_visualisation` in order (each notebook has a path-pointer cell at the top).
-
 3. Copy the environment template and add your Groq API key:
 
    ```bash
@@ -26,6 +24,24 @@ Production classification uses **Groq** (`llama-3.1-8b-instant`) with an 11-cate
    ```
 
    Get a key at [console.groq.com](https://console.groq.com).
+
+## Google Colab
+
+**Start here:** [Open `00_setup.ipynb` in Colab](https://colab.research.google.com/github/K2Debug/Financial-News-Sentiment-Analyzer-for-Economic-Forecasting/blob/main/notebooks/00_setup.ipynb)
+
+Run the top Colab section in `00_setup.ipynb` first — it clones this repo to `/content/EF-02` and installs all dependencies. Then run the pipeline notebooks below in order. Each notebook’s first cell points to the cloned workspace so `../data/` paths resolve correctly; if you open a later notebook directly, that cell will initialize the workspace for you.
+
+| Notebook | Purpose | Open in Colab |
+|----------|---------|---------------|
+| `00_setup.ipynb` | Clone repo, install packages, verify environment | [Open](https://colab.research.google.com/github/K2Debug/Financial-News-Sentiment-Analyzer-for-Economic-Forecasting/blob/main/notebooks/00_setup.ipynb) |
+| `01_scraper.ipynb` | Scrape Daily News and The Citizen | [Open](https://colab.research.google.com/github/K2Debug/Financial-News-Sentiment-Analyzer-for-Economic-Forecasting/blob/main/notebooks/01_scraper.ipynb) |
+| `02_cleaning.ipynb` | Dedupe, date-filter, clean headlines | [Open](https://colab.research.google.com/github/K2Debug/Financial-News-Sentiment-Analyzer-for-Economic-Forecasting/blob/main/notebooks/02_cleaning.ipynb) |
+| `03_benchmarking.ipynb` | Benchmark sentiment models (TextBlob, VADER, FinBERT, LLMs) | [Open](https://colab.research.google.com/github/K2Debug/Financial-News-Sentiment-Analyzer-for-Economic-Forecasting/blob/main/notebooks/03_benchmarking.ipynb) |
+| `04_classifier.ipynb` | Groq LLM classification (relevance, category, sentiment) | [Open](https://colab.research.google.com/github/K2Debug/Financial-News-Sentiment-Analyzer-for-Economic-Forecasting/blob/main/notebooks/04_classifier.ipynb) |
+| `05_consolidation.ipynb` | Monthly aggregates + CPI + FX | [Open](https://colab.research.google.com/github/K2Debug/Financial-News-Sentiment-Analyzer-for-Economic-Forecasting/blob/main/notebooks/05_consolidation.ipynb) |
+| `06_visualisation.ipynb` | Charts and Pearson correlation analysis | [Open](https://colab.research.google.com/github/K2Debug/Financial-News-Sentiment-Analyzer-for-Economic-Forecasting/blob/main/notebooks/06_visualisation.ipynb) |
+
+Add your API keys to `/content/EF-02/.env` after setup (copy from `.env.example`).
 
 ## Pipeline (run in order)
 
@@ -58,9 +74,3 @@ See `docs/00_pipeline_overview.ipynb` for a full pipeline map.
 ## Scripts
 
 - `scripts/retry_sentiment.py` — Re-classify rows missing valid sentiment labels and regenerate consolidation output.
-
-## Model benchmarking
-
-Optional step between cleaning and classification: [`notebooks/03_benchmarking.ipynb`](notebooks/03_benchmarking.ipynb) compares six sentiment models (TextBlob, VADER, FinBERT, GPT-4o-mini, Llama 3.1 8b, Llama 3.3 70b) on the labelled test set.
-
-On Colab, run [`00_setup.ipynb`](notebooks/00_setup.ipynb) first, then open `03_benchmarking.ipynb` from the cloned `/content/EF-02/notebooks/` folder alongside the rest of the pipeline.
