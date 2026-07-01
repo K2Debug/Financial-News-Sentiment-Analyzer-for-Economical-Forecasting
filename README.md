@@ -1,4 +1,4 @@
-# EF-02 — Tanzania Financial News Sentiment Analyser
+# Financial News Sentiment Analyzer for Economical Forecasting
 
 Investigates whether sentiment in Tanzanian financial news headlines correlates with macroeconomic movement (USD/TZS exchange rate and headline inflation) across 2022–2024.
 
@@ -53,7 +53,3 @@ See `docs/00_pipeline_overview.ipynb` for a full pipeline map.
 ## Scripts
 
 - `scripts/retry_sentiment.py` — Re-classify rows missing valid sentiment labels and regenerate consolidation output.
-
-## Intentionally excluded
-
-Testing artifacts (benchmark notebooks, gold-set eval tools, test-run CSVs, backup files) and alternate provider pipelines are kept local and not tracked in this repository.
