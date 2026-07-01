@@ -4,6 +4,8 @@ Investigates whether sentiment in Tanzanian financial news headlines correlates 
 
 Production classification uses **Groq** (`llama-3.1-8b-instant`) with an 11-category v5 prompt schema.
 
+> **Model caveat:** Groq is deprecating some models soon, including `llama-3.3-70b-versatile`. If you are re-running the classifier on the free tier, consider switching to alternatives such as **`openai/gpt-oss-20b`** or **`llama-3.1-8b-instant`** on Groq. For the best classification quality and stability, a fully paid API key (e.g. OpenAI `gpt-4o-mini` or equivalent) is recommended.
+
 ## Setup
 
 1. **Python 3.10+** and Jupyter (VS Code, JupyterLab, or Anaconda).
