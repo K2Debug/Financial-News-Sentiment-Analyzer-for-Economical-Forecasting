@@ -4,6 +4,8 @@ __pycache__/
 *.pyc
 *.docx
 *.odt
+*.pptx
+Year II Presentation II.pptx
 
 # Testing / dev artifacts
 data/raw/project_testing.csv
@@ -11,7 +13,6 @@ data/processed/tz_headlines_test.csv
 data/processed/benchmarking_results.csv
 data/processed/*_pre_retry_backup.csv
 data/processed/*_backup.csv
-notebooks/03_benchmarking.ipynb
 docs/demo_*.ipynb
 scripts/prompt_eval.py
 scripts/update_format3_report.py

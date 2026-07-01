@@ -32,6 +32,7 @@ Production classification uses **Groq** (`llama-3.1-8b-instant`) with an 11-cate
 | `notebooks/00_setup.ipynb` | Install packages and verify environment |
 | `notebooks/01_scraper.ipynb` | Scrape Daily News and The Citizen |
 | `notebooks/02_cleaning.ipynb` | Dedupe, date-filter, clean headlines |
+| `notebooks/03_benchmarking.ipynb` | Benchmark sentiment models (TextBlob, VADER, FinBERT, LLMs) |
 | `notebooks/04_classifier.ipynb` | Groq LLM classification (relevance, category, sentiment) |
 | `notebooks/05_consolidation.ipynb` | Monthly aggregates + CPI + FX |
 | `notebooks/06_visualisation.ipynb` | Charts and Pearson correlation analysis |
@@ -55,3 +56,7 @@ See `docs/00_pipeline_overview.ipynb` for a full pipeline map.
 ## Scripts
 
 - `scripts/retry_sentiment.py` — Re-classify rows missing valid sentiment labels and regenerate consolidation output.
+
+## Model benchmarking
+
+Open [`notebooks/03_benchmarking.ipynb`](notebooks/03_benchmarking.ipynb) to compare six sentiment models on the labelled test set. On Google Colab, use [Open in Colab](https://colab.research.google.com/github/K2Debug/Financial-News-Sentiment-Analyzer-for-Economic-Forecasting/blob/refactor/colab-local-runtime-cache/notebooks/03_benchmarking.ipynb).
