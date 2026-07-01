@@ -2,9 +2,9 @@
 
 Investigates whether sentiment in Tanzanian financial news headlines correlates with macroeconomic movement (USD/TZS exchange rate and headline inflation) across 2022–2024.
 
-Production classification uses **Groq** (`llama-3.1-8b-instant`) with an 11-category v5 prompt schema.
+Production classification uses **Groq** (`llama-3.1-8b-instant`) with an 11-category v5 prompt schema. The committed results in this repo were produced with that model.
 
-> **Model caveat:** Groq is deprecating some models soon, including `llama-3.3-70b-versatile`. If you are re-running the classifier on the free tier, consider switching to alternatives such as **`openai/gpt-oss-20b`** or **`llama-3.1-8b-instant`** on Groq. For the best classification quality and stability, a fully paid API key (e.g. OpenAI `gpt-4o-mini` or equivalent) is recommended.
+> **Model caveat:** Groq is officially decommissioning **Llama 3.1 8B Instant** on **16 August 2026**. If you re-run the classifier on Groq’s free or developer tiers, migrate before that date to avoid interruptions. Groq’s recommended replacement is **`openai/gpt-oss-20b`** (similar speed and strong agentic performance). **`llama-3.3-70b-versatile`** also remains available on Groq as a free-tier alternative. For the best classification quality and stability, a fully paid API key (e.g. OpenAI `gpt-4o-mini` or equivalent) is recommended. See [Groq model deprecation docs](https://console.groq.com/docs/deprecations) for official upgrade paths.
 
 ## Setup
 
