@@ -1,4 +1,4 @@
-# Financial News Sentiment Analyzer for Economical Forecasting
+# Financial News Sentiment Analyzer for Economic Forecasting
 
 Investigates whether sentiment in Tanzanian financial news headlines correlates with macroeconomic movement (USD/TZS exchange rate and headline inflation) across 2022–2024.
 
