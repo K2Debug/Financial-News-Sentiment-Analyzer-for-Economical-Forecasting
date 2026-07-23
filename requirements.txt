@@ -1,0 +1,3 @@
+# EF-02 — install dashboard deps from repo root (Render / CI).
+# Prefer deploying with Root Directory = dashboard if the host supports it.
+-r dashboard/requirements.txt
