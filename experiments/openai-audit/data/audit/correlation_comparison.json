@@ -1,0 +1,68 @@
+{
+  "groq": {
+    "Negative % vs USD/TZS_Rate": {
+      "r": -0.293,
+      "p": 0.0831,
+      "significant": false
+    },
+    "Net_Sentiment vs USD/TZS_Rate": {
+      "r": 0.254,
+      "p": 0.1348,
+      "significant": false
+    },
+    "Positive % vs USD/TZS_Rate": {
+      "r": 0.139,
+      "p": 0.4185,
+      "significant": false
+    },
+    "Net_Sentiment vs Inflation %": {
+      "r": -0.083,
+      "p": 0.6304,
+      "significant": false
+    }
+  },
+  "openai": {
+    "Negative % vs USD/TZS_Rate": {
+      "r": -0.435,
+      "p": 0.008,
+      "significant": true
+    },
+    "Net_Sentiment vs USD/TZS_Rate": {
+      "r": 0.438,
+      "p": 0.0076,
+      "significant": true
+    },
+    "Positive % vs USD/TZS_Rate": {
+      "r": 0.422,
+      "p": 0.0104,
+      "significant": true
+    },
+    "Net_Sentiment vs Inflation %": {
+      "r": -0.211,
+      "p": 0.2158,
+      "significant": false
+    }
+  },
+  "agreement_only": {
+    "Negative % vs USD/TZS_Rate": {
+      "r": -0.409,
+      "p": 0.0133,
+      "significant": true
+    },
+    "Net_Sentiment vs USD/TZS_Rate": {
+      "r": 0.386,
+      "p": 0.02,
+      "significant": true
+    },
+    "Positive % vs USD/TZS_Rate": {
+      "r": 0.324,
+      "p": 0.0537,
+      "significant": false
+    },
+    "Net_Sentiment vs Inflation %": {
+      "r": -0.16,
+      "p": 0.352,
+      "significant": false
+    }
+  }
+}

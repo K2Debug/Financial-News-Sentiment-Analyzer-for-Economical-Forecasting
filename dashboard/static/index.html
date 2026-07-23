@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EF-02 Sentiment Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+    <link rel="stylesheet" href="/static/css/layout.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  </head>
+  <body>
+    <nav class="sidebar">
+      <div>
+        <a class="logo-block" href="#" id="logoHome">
+          <div class="logo-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <span class="logo-text">EF-02</span>
+        </a>
+        <ul class="nav">
+          <li data-page="home" class="active">
+            <a href="#" data-goto="home"><i class="fa-solid fa-house"></i><span>Home</span></a>
+          </li>
+          <li data-page="data">
+            <a href="#" data-goto="data"><i class="fa-solid fa-database"></i><span>Data Import</span><span class="check">✓</span></a>
+          </li>
+          <li data-page="classify" class="nav-locked">
+            <a href="#" data-goto="classify"><i class="fa-solid fa-brain"></i><span>Classify</span><span class="check">✓</span></a>
+          </li>
+          <li data-page="analysis" class="nav-locked">
+            <a href="#" data-goto="analysis"><i class="fa-solid fa-chart-pie"></i><span>Analysis</span><span class="check">✓</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="sidebar-footer">Tanzania financial news sentiment pipeline</div>
+    </nav>
+
+    <div class="main">
+      <header class="topbar">
+        <div>
+          <h1>EF-02 Sentiment Dashboard</h1>
+          <p>Import data · Classify headlines · Analyse sentiment</p>
+        </div>
+        <div class="topbar-actions">
+          <span class="job-badge" id="jobBadge">No job</span>
+          <button class="icon-btn" id="btnOpenSettings" title="Settings"><i class="fa-solid fa-gear"></i></button>
+        </div>
+      </header>
+
+      <div class="page-scroll">
+        <!-- HOME -->
+        <section class="page active" id="page-home">
+          <div class="dash-hero">
+            <h2>Financial news sentiment analyser</h2>
+            <p>Study whether Tanzanian financial news sentiment correlates with inflation and exchange-rate movement. Each analysis is saved as a named session you can reopen, rename, or delete.</p>
+            <button class="btn-primary" id="btnNewJob"><i class="fa-solid fa-plus"></i> New analysis</button>
+            <button class="btn-secondary" id="btnOpenData" style="margin-left: 8px">Continue current session</button>
+          </div>
+
+          <div class="feature-grid" style="margin-top: 14px">
+            <article class="feature-card">
+              <i class="fa-solid fa-database" style="color: var(--primary); font-size: 20px"></i>
+              <h4>1. Import data</h4>
+              <p>Upload CPI and USD/TZS plus either raw headlines or a pre-labelled CSV if you already have classifications.</p>
+            </article>
+            <article class="feature-card">
+              <i class="fa-solid fa-brain" style="color: var(--primary); font-size: 20px"></i>
+              <h4>2. Classify (optional)</h4>
+              <p>OpenAI labels each headline for relevance, category, and economic sentiment — or skip this if you uploaded labelled data.</p>
+            </article>
+            <article class="feature-card">
+              <i class="fa-solid fa-chart-pie" style="color: var(--primary); font-size: 20px"></i>
+              <h4>3. Analyse results</h4>
+              <p>Consolidate monthly data, then view significance conclusions, correlation tables, and interactive charts on one page.</p>
+            </article>
+          </div>
+
+          <div class="card" style="margin-top: 14px">
+            <div class="card-header"><h2 class="card-title">Saved sessions</h2></div>
+            <p class="card-note" style="margin: 0 0 12px">Open a previous run or delete cached data you no longer need.</p>
+            <table class="runs-table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Status</th>
+                  <th>Headlines</th>
+                  <th>Created</th>
+                  <th>Last updated</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="runsTableBody"></tbody>
+            </table>
+            <p id="runsEmpty" class="card-note runs-empty" hidden>No saved sessions yet. Start a new analysis above.</p>
+          </div>
+        </section>
+
+        <!-- DATA -->
+        <section class="page" id="page-data">
+          <div class="card">
+            <div class="card-header"><h2 class="card-title">Data import</h2></div>
+            <p class="card-note">Upload CPI and USD/TZS, then either raw headlines (to classify) or a pre-labelled CSV (to skip straight to analysis).</p>
+            <div id="dataPreview" class="preview-box" hidden></div>
+            <div class="upload-grid" style="margin-top: 14px">
+              <div class="drop-zone" id="zone-headlines">
+                <i class="fa-solid fa-newspaper"></i>
+                <p><strong>Headlines</strong> <span class="card-note">(optional if labelled)</span></p>
+                <p class="card-note">date, headline — multiple CSVs OK</p>
+                <input type="file" id="input-headlines" accept=".csv" multiple />
+                <div class="file-badge" id="badge-headlines" style="display:none"></div>
+              </div>
+              <div class="drop-zone" id="zone-labels">
+                <i class="fa-solid fa-tags"></i>
+                <p><strong>Labelled CSV</strong> <span class="card-note">(skip classify)</span></p>
+                <p class="card-note">date, headline, relevant, category, sentiment</p>
+                <input type="file" id="input-labels" accept=".csv" />
+                <div class="file-badge" id="badge-labels" style="display:none"></div>
+              </div>
+              <div class="drop-zone" id="zone-cpi">
+                <i class="fa-solid fa-chart-line"></i>
+                <p><strong>CPI</strong></p>
+                <p class="card-note">date, inflation_rate_pct</p>
+                <input type="file" id="input-cpi" accept=".csv" />
+                <div class="file-badge" id="badge-cpi" style="display:none"></div>
+              </div>
+              <div class="drop-zone" id="zone-fx">
+                <i class="fa-solid fa-money-bill-transfer"></i>
+                <p><strong>USD/TZS</strong></p>
+                <p class="card-note">Date, Price</p>
+                <input type="file" id="input-fx" accept=".csv" />
+                <div class="file-badge" id="badge-fx" style="display:none"></div>
+              </div>
+            </div>
+            <div class="section-next" id="dataNextActions" hidden>
+              <button class="btn-primary" id="btnNextClassify" hidden><i class="fa-solid fa-arrow-right"></i> Continue to Classify</button>
+              <button class="btn-primary" id="btnNextAnalysisFromData" hidden style="margin-left:8px"><i class="fa-solid fa-chart-pie"></i> Skip to Analysis</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- CLASSIFY -->
+        <section class="page" id="page-classify">
+          <div class="phase-panel">
+            <h2 class="card-title">Classify headlines</h2>
+            <p id="classifyStatus" class="card-note">Upload all data first</p>
+            <p class="card-note">Model and API key are configured in Settings (gear icon). Already have labels? Upload a labelled CSV on Data Import and skip this step.</p>
+            <div style="margin-top: 12px">
+              <button class="btn-primary" id="btnRunClassify"><i class="fa-solid fa-play"></i> Run classification</button>
+              <label class="btn-secondary" style="margin-left:8px;cursor:pointer">
+                Upload labelled CSV <input type="file" id="inputLabelsUploadClassify" accept=".csv" hidden />
+              </label>
+              <a class="btn-secondary" id="dlLabelsLink" href="#" style="margin-left:8px">Download labelled CSV</a>
+            </div>
+            <p id="classifyMessage" class="hero-narrative" style="margin-top:12px"></p>
+            <p id="classifyStats" class="classify-stats"></p>
+            <div class="progress-bar-wrap"><div id="classifyFill" class="progress-bar-fill"></div></div>
+            <p id="classifyText" class="card-note"></p>
+            <ul id="classifyLog" class="classify-log"></ul>
+            <div class="section-next" id="btnNextAnalysis" hidden>
+              <button class="btn-primary"><i class="fa-solid fa-arrow-right"></i> Continue to Analysis</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- ANALYSIS (consolidation + charts) -->
+        <section class="page" id="page-analysis">
+          <div class="phase-panel" id="consolidatePanel">
+            <h2 class="card-title">Consolidate monthly data</h2>
+            <p id="consolidateStatus" class="card-note">Complete classification first</p>
+            <p class="card-note">Uses cached labelled headlines, or a labelled CSV uploaded on Data Import / here. Then run consolidation to unlock charts.</p>
+            <div style="margin-top: 12px">
+              <button class="btn-primary" id="btnRunConsolidate"><i class="fa-solid fa-play"></i> Run consolidation</button>
+              <label class="btn-secondary" style="margin-left:8px;cursor:pointer">
+                Upload labelled CSV <input type="file" id="inputLabelsUpload" accept=".csv" hidden />
+              </label>
+              <a class="btn-secondary" id="dlVizLink" href="#" style="margin-left:8px">Download viz CSV</a>
+            </div>
+            <p id="consolidateMessage" class="hero-narrative" style="margin-top:12px"></p>
+            <div class="progress-bar-wrap"><div id="consolidateFill" class="progress-bar-fill"></div></div>
+            <p id="consolidateText" class="card-note"></p>
+          </div>
+
+          <div id="analysisEmpty" class="empty-state">Upload CPI, USD/TZS, and a labelled CSV (or run Classify), then consolidate to see charts.</div>
+          <div id="analysisContent" style="display:none">
+            <div id="conclusionPanel" class="conclusion-panel"></div>
+
+            <section class="hero-card">
+              <div class="hero-row">
+                <div class="hero-metric"><div class="hero-metric-title"><span>Months</span></div><div id="monthsCount" class="hero-metric-value">—</div></div>
+                <div class="hero-metric"><div class="hero-metric-title"><span>Dominant sentiment</span></div><div id="dominantSentiment" class="hero-metric-value">—</div></div>
+                <div class="hero-metric"><div class="hero-metric-title"><span>Avg negative %</span></div><div id="avgNegative" class="hero-metric-value">—</div></div>
+                <div class="hero-metric"><div class="hero-metric-title"><span>Net sentiment sign</span></div><div id="netSign" class="hero-metric-value">—</div></div>
+              </div>
+              <p id="narrativeTop" class="hero-narrative"></p>
+            </section>
+
+            <section class="card" style="margin-top:14px">
+              <div class="card-header"><h2 class="card-title">Correlation outcomes</h2></div>
+              <table class="corr-table">
+                <thead><tr><th>Pair</th><th>r</th><th>p</th><th>Significant</th></tr></thead>
+                <tbody id="corrTableBody"></tbody>
+              </table>
+              <p id="corrNarrative" class="card-note narrative"></p>
+              <div id="corrHeatmapWrap" class="heatmap-wrap"></div>
+            </section>
+
+            <section class="grid" style="margin-top:14px">
+              <article class="card"><div class="card-header"><h2 class="card-title">Monthly sentiment balance</h2></div><div class="chart-wrap"><canvas id="sentimentChart"></canvas></div></article>
+              <article class="card"><div class="card-header"><h2 class="card-title">Net sentiment index</h2></div><div class="chart-wrap"><canvas id="netSentimentChart"></canvas></div></article>
+              <article class="card"><div class="card-header"><h2 class="card-title">Inflation rate</h2></div><div class="chart-wrap"><canvas id="inflationChart"></canvas></div></article>
+              <article class="card"><div class="card-header"><h2 class="card-title">USD/TZS rate</h2></div><div class="chart-wrap"><canvas id="fxChart"></canvas></div></article>
+              <article class="card"><div class="card-header"><h2 class="card-title">Net sentiment vs rate change</h2></div><div class="chart-wrap"><canvas id="netVsRateChangeChart"></canvas></div></article>
+              <article class="card"><div class="card-header"><h2 class="card-title">Sentiment vs inflation</h2></div><div class="chart-wrap"><canvas id="sentimentInflationScatter"></canvas></div></article>
+              <article class="card"><div class="card-header"><h2 class="card-title">Sentiment vs USD/TZS</h2></div><div class="chart-wrap"><canvas id="sentimentFxScatter"></canvas></div></article>
+            </section>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- SESSION NAME MODAL -->
+    <div class="modal-overlay" id="sessionModal">
+      <div class="modal modal-sm">
+        <h2 id="sessionModalTitle" style="margin:0 0 12px">Name your analysis</h2>
+        <p id="sessionModalHint" class="card-note" style="margin:0 0 10px">Give this session a memorable name before you begin.</p>
+        <input type="text" id="sessionNameInput" maxlength="80" placeholder="e.g. Tanzania headlines 2022–2024" />
+        <div class="modal-actions">
+          <button class="btn-primary" id="btnSessionConfirm">Create</button>
+          <button class="btn-secondary" id="btnSessionCancel">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- SETTINGS MODAL -->
+    <div class="modal-overlay" id="settingsModal">
+      <div class="modal">
+        <h2 style="margin:0 0 12px">Settings</h2>
+        <div class="modal-tabs">
+          <button class="modal-tab active" data-tab="api">API &amp; Model</button>
+          <button class="modal-tab" data-tab="prompt">Prompt</button>
+          <button class="modal-tab" data-tab="batch">Batch settings</button>
+        </div>
+        <div id="panel-api" class="modal-panel">
+          <label class="card-note">OpenAI API key</label>
+          <input type="password" id="settingsApiKey" placeholder="Uses .env if blank" />
+          <p id="settingsApiKeyHint" class="card-note" style="margin-top:6px"></p>
+          <label class="card-note" style="margin-top:14px;display:block">Model</label>
+          <select id="settingsModel">
+            <option value="gpt-4o-mini">gpt-4o-mini</option>
+            <option value="gpt-4o">gpt-4o</option>
+            <option value="gpt-4-turbo">gpt-4-turbo</option>
+            <option value="gpt-4.1-mini">gpt-4.1-mini</option>
+          </select>
+        </div>
+        <div id="panel-prompt" class="modal-panel" style="display:none">
+          <label class="card-note">System prompt</label>
+          <textarea id="settingsSystemPrompt" rows="4"></textarea>
+          <label class="card-note" style="margin-top:10px;display:block">User prompt template ({headlines}, {reason_field})</label>
+          <textarea id="settingsUserPrompt" rows="14"></textarea>
+        </div>
+        <div id="panel-batch" class="modal-panel" style="display:none">
+          <label class="card-note">Batch size</label>
+          <input type="number" id="settingsBatchSize" min="1" max="50" />
+          <label class="card-note" style="margin-top:10px;display:block">Retry batch size</label>
+          <input type="number" id="settingsRetryBatch" min="1" max="25" />
+          <label class="card-note" style="margin-top:10px;display:block">Sleep between batches (sec)</label>
+          <input type="number" id="settingsSleep" min="0" max="5" step="0.05" />
+        </div>
+        <div class="modal-actions">
+          <button class="btn-primary" id="btnSaveSettings">Save</button>
+          <button class="btn-secondary" id="btnResetSettings">Reset to notebook defaults</button>
+          <button class="btn-secondary" id="btnCloseSettings">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="/static/js/analysis.js"></script>
+    <script src="/static/js/app.js"></script>
+    <script>
+      function updateDownloadLinks() {
+        const id = localStorage.getItem("ef02_last_job_id");
+        if (!id) return;
+        const dl = document.getElementById("dlLabelsLink");
+        const dv = document.getElementById("dlVizLink");
+        if (dl) dl.href = `/api/jobs/${id}/downloads/tz_headlines_labelled.csv`;
+        if (dv) dv.href = `/api/jobs/${id}/downloads/Visualization_Data.csv`;
+      }
+      setInterval(updateDownloadLinks, 2000);
+      updateDownloadLinks();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EF-02 — Processing</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="header-left">
+        <div class="header-icon" aria-hidden="true">
+          <i class="fa-solid fa-spinner fa-spin" id="headerIcon"></i>
+        </div>
+        <div>
+          <h1 class="app-title">Processing analysis</h1>
+          <p class="app-subtitle" id="jobSubtitle">Job —</p>
+        </div>
+      </div>
+      <div class="header-right">
+        <a class="btn-link" href="/"><i class="fa-solid fa-arrow-left"></i> Home</a>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero-card">
+        <p id="statusMessage" class="hero-narrative">Loading...</p>
+        <div class="progress-bar-wrap" aria-hidden="true">
+          <div id="progressFill" class="progress-bar-fill"></div>
+        </div>
+        <p id="progressText" class="card-note" style="margin-top: 10px">—</p>
+
+        <ul class="phase-list">
+          <li id="phaseClean">Clean headlines</li>
+          <li id="phaseClassify">Classify with gpt-4o-mini</li>
+          <li id="phaseConsolidate">Consolidate monthly data</li>
+          <li id="phaseDone">View results</li>
+        </ul>
+
+        <div id="resumePanel" hidden style="margin-top: 14px">
+          <p class="card-note">This run was interrupted. Resume continues from the last saved checkpoint.</p>
+          <div class="field" style="max-width: 420px; margin-bottom: 10px">
+            <label for="resumeApiKey">OpenAI API key <span class="muted">(only if not in .env)</span></label>
+            <input id="resumeApiKey" type="password" placeholder="sk-..." autocomplete="off" />
+          </div>
+          <button id="resumeBtn" class="btn-primary" type="button">
+            <i class="fa-solid fa-forward"></i> Resume analysis
+          </button>
+        </div>
+
+        <div id="errorBox" class="error-box" hidden></div>
+      </section>
+    </main>
+
+    <script>
+      const STORAGE_KEY = "ef02_last_job_id";
+      const jobId = window.location.pathname.split("/").pop();
+      localStorage.setItem(STORAGE_KEY, jobId);
+      document.getElementById("jobSubtitle").textContent = `Job ${jobId}`;
+
+      const statusMessage = document.getElementById("statusMessage");
+      const progressFill = document.getElementById("progressFill");
+      const progressText = document.getElementById("progressText");
+      const errorBox = document.getElementById("errorBox");
+      const resumePanel = document.getElementById("resumePanel");
+      const resumeBtn = document.getElementById("resumeBtn");
+      let eventSource = null;
+      let needsResume = false;
+
+      const phases = {
+        clean: document.getElementById("phaseClean"),
+        classify: document.getElementById("phaseClassify"),
+        classify_retry: document.getElementById("phaseClassify"),
+        consolidate: document.getElementById("phaseConsolidate"),
+        done: document.getElementById("phaseDone"),
+      };
+
+      function setActivePhase(phase) {
+        Object.values(phases).forEach((el) => el.classList.remove("active"));
+        const el = phases[phase] || phases.classify;
+        if (el) el.classList.add("active");
+      }
+
+      function connectEvents() {
+        if (eventSource) eventSource.close();
+        eventSource = new EventSource(`/api/jobs/${jobId}/events`);
+        eventSource.onmessage = (ev) => {
+          try {
+            const data = JSON.parse(ev.data);
+            if (data.type === "close") {
+              eventSource.close();
+              return;
+            }
+            updateUI(data);
+          } catch (_) {
+            /* ignore */
+          }
+        };
+        eventSource.onerror = () => pollStatus();
+      }
+
+      function updateUI(data) {
+        statusMessage.textContent = data.message || data.phase || data.status;
+        setActivePhase(data.phase);
+
+        if (data.total_batches > 0) {
+          const pct = Math.round((data.batch / data.total_batches) * 100);
+          progressFill.style.width = `${pct}%`;
+          progressText.textContent = `Batch ${data.batch}/${data.total_batches} — ${data.headlines_done || 0}/${data.headlines_total || 0} headlines`;
+        } else if (data.phase === "consolidate") {
+          progressFill.style.width = "92%";
+          progressText.textContent = "Merging CPI, FX, and sentiment...";
+        } else if (data.phase === "done" || data.status === "completed") {
+          progressFill.style.width = "100%";
+          progressText.textContent = "Complete";
+        }
+
+        const resumable = ["interrupted", "failed", "created", "queued"].includes(data.status);
+        needsResume = resumable && data.status !== "running";
+        resumePanel.hidden = !needsResume;
+        document.getElementById("headerIcon").className =
+          data.status === "running" ? "fa-solid fa-spinner fa-spin" : "fa-solid fa-chart-line";
+
+        if (data.status === "failed" || data.error) {
+          errorBox.textContent = data.error || data.message;
+          errorBox.hidden = false;
+        } else {
+          errorBox.hidden = true;
+        }
+
+        if (data.status === "completed") {
+          window.location.href = `/results/${jobId}`;
+        } else if (data.status === "running" || data.status === "queued") {
+          resumePanel.hidden = true;
+        }
+      }
+
+      async function pollStatus() {
+        const res = await fetch(`/api/jobs/${jobId}/status`);
+        if (res.ok) {
+          const data = await res.json();
+          updateUI(data);
+          if (data.status === "completed") {
+            window.location.href = `/results/${jobId}`;
+          }
+        }
+      }
+
+      async function resumeJob() {
+        resumeBtn.disabled = true;
+        resumeBtn.textContent = "Resuming...";
+        errorBox.hidden = true;
+        const fd = new FormData();
+        const key = document.getElementById("resumeApiKey").value.trim();
+        if (key) fd.append("api_key", key);
+        try {
+          const res = await fetch(`/api/jobs/${jobId}/resume`, { method: "POST", body: fd });
+          const data = await res.json();
+          if (!res.ok) throw new Error(data.detail || "Resume failed");
+          resumePanel.hidden = true;
+          connectEvents();
+          pollStatus();
+        } catch (err) {
+          errorBox.textContent = err.message;
+          errorBox.hidden = false;
+        } finally {
+          resumeBtn.disabled = false;
+          resumeBtn.innerHTML = '<i class="fa-solid fa-forward"></i> Resume analysis';
+        }
+      }
+
+      resumeBtn.addEventListener("click", resumeJob);
+
+      (async function init() {
+        await pollStatus();
+        if (!needsResume) {
+          const res = await fetch(`/api/jobs/${jobId}/start`, { method: "POST" });
+          if (res.ok) {
+            const data = await res.json();
+            if (data.status === "completed") {
+              window.location.href = `/results/${jobId}`;
+              return;
+            }
+          }
+          connectEvents();
+        }
+      })();
+    </script>
+  </body>
+</html>

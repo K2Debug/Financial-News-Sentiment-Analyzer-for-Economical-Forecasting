@@ -1,0 +1,113 @@
+{
+  "groq_relevant_only": [
+    {
+      "headline": "KIA sees surge in passengers amid increased flights",
+      "category_groq": "Transport",
+      "sentiment_groq": NaN,
+      "category_oai": NaN,
+      "sentiment_oai": NaN
+    },
+    {
+      "headline": "Boost for Akkuyu NPP as turbine installation completed",
+      "category_groq": "Energy",
+      "sentiment_groq": NaN,
+      "category_oai": NaN,
+      "sentiment_oai": NaN
+    },
+    {
+      "headline": "Govt highlights CRJE\u2019s role in China-Tanzania ties",
+      "category_groq": "Trade",
+      "sentiment_groq": NaN,
+      "category_oai": NaN,
+      "sentiment_oai": NaN
+    },
+    {
+      "headline": "Airtel intensifies anti-fraud measures",
+      "category_groq": "Banking",
+      "sentiment_groq": "Neutral",
+      "category_oai": NaN,
+      "sentiment_oai": NaN
+    },
+    {
+      "headline": "TBS destroys 18m/- substandard goods",
+      "category_groq": "Trade",
+      "sentiment_groq": "Negative",
+      "category_oai": NaN,
+      "sentiment_oai": NaN
+    }
+  ],
+  "neutral_to_positive": [
+    {
+      "headline": "Goods, services imports rise by 2.3 per cent",
+      "category_groq": "Trade",
+      "sentiment_groq": "Neutral",
+      "category_oai": "Trade",
+      "sentiment_oai": "Positive"
+    },
+    {
+      "headline": "Govt urges Rukwa diaspora to invest at home",
+      "category_groq": "Investment",
+      "sentiment_groq": "Neutral",
+      "category_oai": "Investment",
+      "sentiment_oai": "Positive"
+    },
+    {
+      "headline": "Tanzania seeks 7tri/- Chinese FDIs",
+      "category_groq": "Investment",
+      "sentiment_groq": "Neutral",
+      "category_oai": "Investment",
+      "sentiment_oai": "Positive"
+    },
+    {
+      "headline": "E-commerce set to thrive",
+      "category_groq": "Trade",
+      "sentiment_groq": "Neutral",
+      "category_oai": "Trade",
+      "sentiment_oai": "Positive"
+    },
+    {
+      "headline": "MOLLIS GROUP: A game changer in marketing African products in the continent",
+      "category_groq": "Trade",
+      "sentiment_groq": "Neutral",
+      "category_oai": "Trade",
+      "sentiment_oai": "Positive"
+    }
+  ],
+  "negative_to_positive": [
+    {
+      "headline": "SBL jerks up local hospitality industry professionals to global standards",
+      "category_groq": "Trade",
+      "sentiment_groq": "Negative",
+      "category_oai": "Tourism",
+      "sentiment_oai": "Positive"
+    },
+    {
+      "headline": "Goods, services imports decline",
+      "category_groq": "Trade",
+      "sentiment_groq": "Negative",
+      "category_oai": "Trade",
+      "sentiment_oai": "Positive"
+    },
+    {
+      "headline": "Imports decline, narrow current account deficit",
+      "category_groq": "Trade",
+      "sentiment_groq": "Negative",
+      "category_oai": "Trade",
+      "sentiment_oai": "Positive"
+    },
+    {
+      "headline": "BoT urged to improve interbank cash market functioning",
+      "category_groq": "Policy",
+      "sentiment_groq": "Negative",
+      "category_oai": "Policy",
+      "sentiment_oai": "Positive"
+    },
+    {
+      "headline": "IMF pinpoints areas to ease forex pressure in Dar",
+      "category_groq": "Forex",
+      "sentiment_groq": "Negative",
+      "category_oai": "Policy",
+      "sentiment_oai": "Positive"
+    }
+  ]
+}

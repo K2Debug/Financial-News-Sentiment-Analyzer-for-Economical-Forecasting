@@ -1,0 +1,145 @@
+date,headline,source,category,sentiment,tzs_usd_rate,inflation_rate,bot_policy_rate
+2022-01-05,Bank of Tanzania holds benchmark rate steady at 5% amid stable inflation outlook,Daily News,Policy,Neutral,2300,3.5,5.0
+2022-01-12,Tanzania shilling opens year on firm footing against US dollar,The Citizen,Forex,Positive,2300,3.5,5.0
+2022-01-18,M-Pesa Tanzania records 30% surge in mobile transactions in Q4 2021,IPP Media,Fintech,Positive,2300,3.5,5.0
+2022-01-25,CRDB Bank posts strong full-year profit driven by retail lending growth,The Citizen,Banking,Positive,2300,3.5,5.0
+2022-02-03,Tanzania inflation holds at 3.5% as food prices remain contained,Daily News,Policy,Neutral,2308,3.5,5.0
+2022-02-10,NMB Bank expands agency banking network to rural districts,IPP Media,Banking,Positive,2308,3.5,5.0
+2022-02-16,Tanzania exports of gold and cashew nuts boost trade balance in January,The Citizen,Trade,Positive,2308,3.5,5.0
+2022-02-22,Tigo Pesa launches new merchant payment solution for small businesses,Daily News,Fintech,Positive,2308,3.5,5.0
+2022-03-04,Rising global fuel prices threaten to push Tanzania inflation higher,The Citizen,Policy,Negative,2318,3.7,5.0
+2022-03-11,Tanzania shilling under mild pressure as import costs climb,IPP Media,Forex,Negative,2318,3.7,5.0
+2022-03-17,Bank of Tanzania warns lenders over rising non-performing loans,Daily News,Banking,Negative,2318,3.7,5.0
+2022-03-24,Tanzania joins African Continental Free Trade Area digital payment pilot,The Citizen,Trade,Positive,2318,3.7,5.0
+2022-04-06,Government unveils budget framework targeting 5.2% GDP growth in 2022,Daily News,Policy,Positive,2325,3.8,5.0
+2022-04-13,Airtel Money Tanzania crosses five million active user milestone,IPP Media,Fintech,Positive,2325,3.8,5.0
+2022-04-19,Tanzania trade deficit widens as energy import bill surges,The Citizen,Trade,Negative,2325,3.8,5.0
+2022-04-26,CRDB Bank launches diaspora remittance product targeting Tanzanians abroad,Daily News,Banking,Positive,2325,3.8,5.0
+2022-05-05,Tanzania inflation edges up to 3.8% on transport and food cost pressures,IPP Media,Policy,Negative,2332,3.8,5.0
+2022-05-12,Bank of Tanzania intervenes in forex market to stabilise shilling,The Citizen,Forex,Neutral,2332,3.8,5.0
+2022-05-19,Stanbic Tanzania reports decline in net profit amid rising provisions,Daily News,Banking,Negative,2332,3.8,5.0
+2022-05-26,Tanzania government clears domestic arrears worth TZS 400 billion,IPP Media,Policy,Positive,2332,3.8,5.0
+2022-06-07,Tanzania Parliament approves TZS 41.4 trillion national budget for 2022/23,The Citizen,Policy,Neutral,2340,4.0,5.0
+2022-06-14,Shilling weakens to 2340 per dollar on rising import demand,Daily News,Forex,Negative,2340,4.0,5.0
+2022-06-21,BoT launches regulatory sandbox for fintech startups,IPP Media,Fintech,Positive,2340,4.0,5.0
+2022-06-28,Tanzania cashew nut exports hit five-year high boosting rural incomes,The Citizen,Trade,Positive,2340,4.0,5.0
+2022-07-06,Inflation climbs to 4.0% as fuel subsidies removed from budget,Daily News,Policy,Negative,2348,4.0,5.0
+2022-07-13,NMB Bank digital platform onboards 200,000 new customers in six months,IPP Media,Fintech,Positive,2348,4.0,5.0
+2022-07-19,Tanzania gold exports rise 18% year-on-year in second quarter,The Citizen,Trade,Positive,2348,4.0,5.0
+2022-07-26,Bank of Tanzania raises minimum capital requirements for commercial banks,Daily News,Banking,Neutral,2348,4.0,5.0
+2022-08-04,Tanzania shilling stabilises after BoT open market operations,IPP Media,Forex,Positive,2354,4.1,5.0
+2022-08-11,CRDB and NMB dominate market as smaller banks struggle with capital,The Citizen,Banking,Negative,2354,4.1,5.0
+2022-08-17,Government targets 40% financial inclusion growth by 2025,Daily News,Policy,Positive,2354,4.1,5.0
+2022-08-24,EFT and mobile money transactions surpass cheque volumes for first time,IPP Media,Fintech,Positive,2354,4.1,5.0
+2022-09-07,Tanzania faces pressure on current account as dollar demand rises,The Citizen,Forex,Negative,2362,4.2,5.0
+2022-09-14,Bank of Tanzania holds rate at 5% citing manageable inflation trajectory,Daily News,Policy,Neutral,2362,4.2,5.0
+2022-09-21,Tanzania Revenue Authority surpasses quarterly collection target by 8%,IPP Media,Policy,Positive,2362,4.2,5.0
+2022-09-28,Local manufacturers call for tariff relief as import competition intensifies,The Citizen,Trade,Negative,2362,4.2,5.0
+2022-10-05,Annual IMF report praises Tanzania fiscal discipline but flags debt risks,Daily News,Policy,Neutral,2370,4.3,5.0
+2022-10-12,Shilling slips further as global dollar strengthens on Fed rate hikes,IPP Media,Forex,Negative,2370,4.3,5.0
+2022-10-18,Vodacom Tanzania M-Pesa reports record TZS 2.1 trillion monthly float,The Citizen,Fintech,Positive,2370,4.3,5.0
+2022-10-25,AccessBank Tanzania expands SME loan portfolio amid rising demand,Daily News,Banking,Positive,2370,4.3,5.0
+2022-11-03,Tanzania inflation rises to 4.3% as cooking oil and flour costs surge,IPP Media,Policy,Negative,2378,4.3,5.0
+2022-11-10,Government signs trade deal with UAE targeting agricultural exports,The Citizen,Trade,Positive,2378,4.3,5.0
+2022-11-17,BoT issues warning on unlicensed digital lenders targeting low-income earners,Daily News,Fintech,Negative,2378,4.3,5.0
+2022-11-24,CRDB Bank issues first green bond on Dar es Salaam Stock Exchange,IPP Media,Banking,Positive,2378,4.3,5.0
+2022-12-07,Tanzania ends 2022 with shilling at 2385 per dollar, down 3.7% for year,The Citizen,Forex,Negative,2385,4.4,5.0
+2022-12-14,BoT annual report highlights growth in financial sector assets,Daily News,Banking,Positive,2385,4.4,5.0
+2022-12-20,Tanzania trade in goods deficit narrows as gold export prices recover,IPP Media,Trade,Positive,2385,4.4,5.0
+2022-12-27,Mobile money interoperability framework goes live across all Tanzania networks,The Citizen,Fintech,Positive,2385,4.4,5.0
+2023-01-05,Tanzania sets ambitious revenue targets in mid-year budget review,Daily News,Policy,Neutral,2390,4.5,5.0
+2023-01-11,Shilling opens 2023 on back foot as dollar demand from energy importers rises,IPP Media,Forex,Negative,2390,4.5,5.0
+2023-01-18,NMB Bank launches SME growth fund worth TZS 100 billion,The Citizen,Banking,Positive,2390,4.5,5.0
+2023-01-25,Tanzania consumer prices rise 4.5% as transport costs remain elevated,Daily News,Policy,Negative,2390,4.5,5.0
+2023-02-07,Bank of Tanzania signals possible rate review as regional inflation persists,IPP Media,Policy,Neutral,2398,4.6,5.0
+2023-02-14,Dar es Salaam Stock Exchange market capitalisation grows 9% year-on-year,The Citizen,Banking,Positive,2398,4.6,5.0
+2023-02-21,Tanzania flower and horticulture exports to Europe hit record in January,Daily News,Trade,Positive,2398,4.6,5.0
+2023-02-28,Unlicensed forex bureaus crackdown sees 15 operators shut in Dar es Salaam,IPP Media,Forex,Neutral,2398,4.6,5.0
+2023-03-08,BoT raises benchmark rate to 5.5% in surprise move to anchor inflation,The Citizen,Policy,Negative,2408,4.8,5.5
+2023-03-15,Shilling steadies briefly after rate hike announcement,Daily News,Forex,Positive,2408,4.8,5.5
+2023-03-22,Bank lending rates expected to rise following BoT policy tightening,IPP Media,Banking,Negative,2408,4.8,5.5
+2023-03-29,Tanzania government increases fuel levy to fund road infrastructure,The Citizen,Policy,Negative,2408,4.8,5.5
+2023-04-05,Inflation accelerates to 4.8% driven by food and energy price pass-through,Daily News,Policy,Negative,2418,4.9,5.5
+2023-04-12,Exim Bank Tanzania rolls out trade finance facility for EAC exporters,IPP Media,Trade,Positive,2418,4.9,5.5
+2023-04-18,Tigo and Airtel complete mobile money merger integration in Tanzania,The Citizen,Fintech,Positive,2418,4.9,5.5
+2023-04-25,CRDB Bank profit falls 12% in Q1 on higher provisioning costs,Daily News,Banking,Negative,2418,4.9,5.5
+2023-05-04,Tanzania shilling hits 2428 per dollar as trade deficit widens,IPP Media,Forex,Negative,2428,5.0,5.5
+2023-05-11,Government suspends some import duties on basic food items to ease prices,The Citizen,Policy,Positive,2428,5.0,5.5
+2023-05-17,BoT introduces new foreign exchange management guidelines for banks,Daily News,Forex,Neutral,2428,5.0,5.5
+2023-05-24,Tanzania launches national digital payments strategy through 2027,IPP Media,Fintech,Positive,2428,5.0,5.5
+2023-06-07,National budget 2023/24 projects 6% growth backed by infrastructure spend,The Citizen,Policy,Positive,2436,5.1,5.5
+2023-06-14,Tanzania inflation climbs to 5.1% highest level since 2017,Daily News,Policy,Negative,2436,5.1,5.5
+2023-06-21,World Bank approves $500 million development financing package for Tanzania,IPP Media,Policy,Positive,2436,5.1,5.5
+2023-06-28,Dar es Salaam bourse records best monthly trading volume in three years,The Citizen,Banking,Positive,2436,5.1,5.5
+2023-07-06,Inflation peaks at 5.5% in June data released by National Bureau of Statistics,Daily News,Policy,Negative,2445,5.5,5.5
+2023-07-13,Shilling falls to 2445 prompting BoT dollar auction intervention,IPP Media,Forex,Negative,2445,5.5,5.5
+2023-07-19,Tanzania tea and coffee exports surge on improved global commodity prices,The Citizen,Trade,Positive,2445,5.5,5.5
+2023-07-26,Bank of Tanzania holds rate at 5.5% vowing vigilance on price stability,Daily News,Policy,Neutral,2445,5.5,5.5
+2023-08-03,NBS data shows inflation easing slightly to 5.3% in July,IPP Media,Policy,Positive,2452,5.3,5.5
+2023-08-10,Tanzania signs trade facilitation agreement with Kenya and Uganda,The Citizen,Trade,Positive,2452,5.3,5.5
+2023-08-17,Digital lending regulations take effect putting cap on interest rates,Daily News,Fintech,Neutral,2452,5.3,5.5
+2023-08-24,Standard Chartered Tanzania reports strong half-year results on forex income,IPP Media,Banking,Positive,2452,5.3,5.5
+2023-09-06,Shilling recovers to 2448 as gold export receipts boost dollar supply,The Citizen,Forex,Positive,2448,5.2,5.5
+2023-09-13,Tanzania Revenue Authority collects record TZS 2.4 trillion in August,Daily News,Policy,Positive,2448,5.2,5.5
+2023-09-20,Tanzania joins Pan-African Payment and Settlement System,IPP Media,Fintech,Positive,2448,5.2,5.5
+2023-09-27,Import ban on second-hand electronics triggers industry backlash,The Citizen,Trade,Negative,2448,5.2,5.5
+2023-10-05,Inflation eases further to 5.0% as food supply improves post-harvest,Daily News,Policy,Positive,2455,5.0,5.5
+2023-10-12,Shilling weakens again to 2455 on renewed energy import payments,IPP Media,Forex,Negative,2455,5.0,5.5
+2023-10-18,BoT holds benchmark rate steady citing gradual inflation decline,The Citizen,Policy,Neutral,2455,5.0,5.5
+2023-10-25,CRDB Bank and NMB Bank announce API open banking initiative,Daily News,Fintech,Positive,2455,5.0,5.5
+2023-11-02,Tanzania private sector credit growth slows to 8% on tight monetary stance,IPP Media,Banking,Negative,2460,4.9,5.5
+2023-11-09,Government eyes Eurobond issuance in 2024 to finance infrastructure gap,The Citizen,Policy,Neutral,2460,4.9,5.5
+2023-11-16,Tanzania avocado exports to China rise 40% in third quarter,Daily News,Trade,Positive,2460,4.9,5.5
+2023-11-23,Fintech startup Nala raises $10 million to expand Tanzania remittance service,IPP Media,Fintech,Positive,2460,4.9,5.5
+2023-12-06,Annual CPI inflation ends 2023 at 4.8% below central bank target ceiling,The Citizen,Policy,Positive,2468,4.8,5.5
+2023-12-13,Tanzania shilling closes year at 2468 per dollar weakening 3.5% in 2023,Daily News,Forex,Negative,2468,4.8,5.5
+2023-12-20,Banking sector non-performing loan ratio rises to 7.2% amid tight credit,IPP Media,Banking,Negative,2468,4.8,5.5
+2023-12-27,Tanzania mineral export revenues reach $3.2 billion boosting current account,The Citizen,Trade,Positive,2468,4.8,5.5
+2024-01-04,Bank of Tanzania signals rate hold into 2024 as disinflation continues,Daily News,Policy,Neutral,2472,4.7,5.5
+2024-01-11,NMB Bank launches instant cross-border payment service to six EAC countries,IPP Media,Fintech,Positive,2472,4.7,5.5
+2024-01-17,Tanzania shilling opens 2024 on firmer footing amid improved export outlook,The Citizen,Forex,Positive,2472,4.7,5.5
+2024-01-24,Stanbic Tanzania ordered to improve capital buffer after BoT stress test,Daily News,Banking,Negative,2472,4.7,5.5
+2024-02-07,Inflation falls to 4.5% in January as food prices moderate,IPP Media,Policy,Positive,2478,4.5,5.5
+2024-02-14,Tanzania and China sign $800 million port infrastructure financing deal,The Citizen,Trade,Positive,2478,4.5,5.5
+2024-02-21,Dar es Salaam Stock Exchange introduces mobile trading platform,Daily News,Fintech,Positive,2478,4.5,5.5
+2024-02-28,BoT warns commercial banks over aggressive unsecured consumer lending,IPP Media,Banking,Negative,2478,4.5,5.5
+2024-03-06,Bank of Tanzania keeps rate at 5.5% amid global uncertainty,The Citizen,Policy,Neutral,2485,4.5,5.5
+2024-03-13,Shilling slips to 2485 as dollar demand for Q1 import payments peaks,Daily News,Forex,Negative,2485,4.5,5.5
+2024-03-20,Tanzania government clears pension fund arrears of TZS 600 billion,IPP Media,Policy,Positive,2485,4.5,5.5
+2024-03-27,CRDB Bank raises TZS 50 billion through listed corporate bond,The Citizen,Banking,Positive,2485,4.5,5.5
+2024-04-04,Inflation holds at 4.5% for second consecutive month signalling stability,Daily News,Policy,Neutral,2490,4.5,5.5
+2024-04-11,Tanzania launches electronic cargo tracking system to cut trade costs,IPP Media,Trade,Positive,2490,4.5,5.5
+2024-04-18,Mobile money agents in Tanzania surpass 500,000 active outlets nationwide,The Citizen,Fintech,Positive,2490,4.5,5.5
+2024-04-25,NMB Bank net profit rises 22% in first quarter on fee income growth,Daily News,Banking,Positive,2490,4.5,5.5
+2024-05-02,Tanzania shilling steady at 2495 supported by tourism dollar inflows,IPP Media,Forex,Neutral,2495,4.4,5.5
+2024-05-09,World Bank praises Tanzania debt management framework in annual review,The Citizen,Policy,Positive,2495,4.4,5.5
+2024-05-16,Tanzania sesame exports fetch record prices on Asian commodity markets,Daily News,Trade,Positive,2495,4.4,5.5
+2024-05-23,BoT digital currency pilot enters second phase with expanded user base,IPP Media,Fintech,Positive,2495,4.4,5.5
+2024-06-06,National budget 2024/25 presented with TZS 49.3 trillion in total spending,The Citizen,Policy,Neutral,2500,4.3,5.5
+2024-06-13,Tanzania inflation eases to 4.3% as energy costs decline,Daily News,Policy,Positive,2500,4.3,5.5
+2024-06-19,Shilling holds at 2500 against dollar as BoT sustains market liquidity,IPP Media,Forex,Neutral,2500,4.3,5.5
+2024-06-26,Banks report slowdown in mortgage uptake amid high construction costs,The Citizen,Banking,Negative,2500,4.3,5.5
+2024-07-04,Tanzania granted $1.2 billion IMF programme support for budget financing,Daily News,Policy,Positive,2506,4.2,5.5
+2024-07-11,Gold price rally boosts Tanzania export earnings by 25% in second quarter,IPP Media,Trade,Positive,2506,4.2,5.5
+2024-07-18,BoT holds rate at 5.5% but signals readiness to ease if inflation falls further,The Citizen,Policy,Neutral,2506,4.2,5.5
+2024-07-25,Shilling gains ground to 2506 on higher mineral export receipts,Daily News,Forex,Positive,2506,4.2,5.5
+2024-08-01,Tanzania inflation drops to 4.0% boosting purchasing power outlook,IPP Media,Policy,Positive,2510,4.0,5.5
+2024-08-08,Fraudulent mobile money schemes cost Tanzanians TZS 18 billion in first half,The Citizen,Fintech,Negative,2510,4.0,5.5
+2024-08-15,CRDB Bank opens new regional headquarters in Mwanza targeting Lake Zone growth,Daily News,Banking,Positive,2510,4.0,5.5
+2024-08-22,Tanzania signs bilateral trade agreement with India targeting $1 billion by 2026,IPP Media,Trade,Positive,2510,4.0,5.5
+2024-09-05,BoT considers easing benchmark rate as inflation returns toward 4% target,The Citizen,Policy,Positive,2515,4.0,5.5
+2024-09-12,Tanzania revenue shortfall of TZS 300 billion recorded in July to August period,Daily News,Policy,Negative,2515,4.0,5.5
+2024-09-18,Shilling touches 2515 as portfolio investors pull funds from frontier markets,IPP Media,Forex,Negative,2515,4.0,5.5
+2024-09-25,AccessBank and Letshego report growing microfinance demand in peri-urban areas,The Citizen,Banking,Positive,2515,4.0,5.5
+2024-10-03,Tanzania inflation holds at 4.0% meeting BoT medium-term target band,Daily News,Policy,Neutral,2522,4.0,5.5
+2024-10-10,Fintech firm Pezesha launches supply chain finance platform for Tanzanian SMEs,IPP Media,Fintech,Positive,2522,4.0,5.5
+2024-10-17,Tanzania cotton export ban lifted following review of value-addition policy,The Citizen,Trade,Positive,2522,4.0,5.5
+2024-10-24,Bank of Tanzania issues new guidelines on Islamic banking windows,Daily News,Banking,Neutral,2522,4.0,5.5
+2024-11-07,Shilling weakens to 2535 on rising end-of-year import settlement demand,IPP Media,Forex,Negative,2535,4.1,5.5
+2024-11-14,Tanzania private sector raises concerns over rising bank lending rates,The Citizen,Banking,Negative,2535,4.1,5.5
+2024-11-21,Tanzania and DRC sign cross-border trade facilitation memorandum,Daily News,Trade,Positive,2535,4.1,5.5
+2024-11-28,Mobile money transaction volumes reach TZS 180 trillion annualised rate,IPP Media,Fintech,Positive,2535,4.1,5.5
+2024-12-05,BoT holds rate at 5.5% in final 2024 meeting citing external inflation risks,The Citizen,Policy,Neutral,2550,4.2,5.5
+2024-12-12,Tanzania shilling closes at 2550 per dollar depreciating 3.3% over 2024,Daily News,Forex,Negative,2550,4.2,5.5
+2024-12-19,NMB Bank tops DSE annual performance rankings with 35% share price gain,IPP Media,Banking,Positive,2550,4.2,5.5
+2024-12-26,Tanzania mineral and gas sector attracts $2.1 billion in new investment pledges,The Citizen,Trade,Positive,2550,4.2,5.5

@@ -1,0 +1,505 @@
+date,headline,source,category,sentiment,tzs_usd_rate,inflation_rate,bot_policy_rate
+2021-01-05,Bank of Tanzania holds policy rate steady amid cautious economic recovery outlook,Daily News,Policy,Neutral,2296,3.1,5.0
+2021-01-08,Tanzanian shilling opens week firmer as dollar demand from importers eases,The Citizen,Forex,Positive,2291,3.1,5.0
+2021-01-12,KCB Tanzania reports 18% rise in mobile loan disbursements in Q4 2020,Business Daily Africa,Fintech,Positive,2294,3.1,5.0
+2021-01-15,Tanzania Revenue Authority misses January target by 6.2 billion shillings,The EastAfrican,Taxation,Negative,2297,3.2,5.0
+2021-01-19,Cashew export volumes from Mtwara port fall short of seasonal projections,Mwananchi,Agriculture,Negative,2300,3.2,5.0
+2021-01-22,CRDB Bank posts full-year profit growth despite pandemic headwinds,The Citizen,Banking,Positive,2298,3.2,5.0
+2021-01-26,Government clarifies new withholding tax rules for digital service providers,Daily News,Taxation,Neutral,2301,3.2,5.0
+2021-01-29,Fuel pump prices revised upward following global crude oil recovery,Daily News,Energy,Negative,2303,3.3,5.0
+2021-02-03,Tanzania records 6.4 billion USD in foreign exchange reserves,Reuters Africa,Forex,Positive,2298,3.2,5.0
+2021-02-04,Tanzania edible oil import duty exemption extended for another six months,Daily News,Trade,Positive,2295,3.1,5.0
+2021-02-08,Inflation eases to 3.2% in January as food supply chain disruptions ease,The Citizen,Inflation,Positive,2297,3.2,5.0
+2021-02-11,"NMB Bank expands agency banking to 1,400 new rural touchpoints",Business Daily Africa,Banking,Positive,2295,3.2,5.0
+2021-02-16,Tanzania issues 182-day Treasury Bills at average yield of 6.8%,Bloomberg Africa,Debt,Neutral,2294,3.1,5.0
+2021-02-18,Dar es Salaam port container throughput declines for third consecutive quarter,The EastAfrican,Trade,Negative,2299,3.2,5.0
+2021-02-19,Dar es Salaam parallel forex market spreads widen amid reduced dollar liquidity,Mwananchi,Forex,Negative,2302,3.3,5.0
+2021-02-23,Tourism ministry projects 25% recovery in arrivals through second half of 2021,Daily News,Tourism,Positive,2296,3.2,5.0
+2021-02-26,Tanzania Breweries raises product prices citing raw material cost pressures,The Citizen,Inflation,Negative,2302,3.3,5.0
+2021-03-02,Budget framework for 2021/22 fiscal year targets 8.1% GDP growth,Daily News,Budget,Positive,2300,3.3,5.0
+2021-03-04,Bank of Tanzania publishes updated foreign exchange reporting guidelines,Daily News,Regulation,Neutral,2301,3.3,5.0
+2021-03-05,TCRA proposes new licensing fees for mobile money operators,Business Daily Africa,Regulation,Negative,2304,3.3,5.0
+2021-03-08,NSSF pension payout delays reported across 14 regional offices,Daily News,Policy,Negative,2303,3.3,5.0
+2021-03-10,Standard Chartered Tanzania warns of elevated loan default risk in hospitality sector,Reuters Africa,Banking,Negative,2306,3.4,5.0
+2021-03-12,Domestic cement prices spike 15% following clinker import cost surge,The Citizen,Inflation,Negative,2307,3.4,5.0
+2021-03-15,DSE equity index climbs 2.1% on renewed institutional investor interest,The EastAfrican,Markets,Positive,2301,3.3,5.0
+2021-03-17,Tanzania fails to meet Q2 Eurobond payment window amid fiscal recalibration,Bloomberg Africa,Debt,Negative,2310,3.5,5.0
+2021-03-18,"Shilling weakens past 2,305 as end-of-quarter import demand peaks",Bloomberg Africa,Forex,Negative,2308,3.4,5.0
+2021-03-23,Tanzania negotiates 400 million USD budget support facility with World Bank,Daily News,Debt,Positive,2305,3.4,5.0
+2021-03-26,Electricity tariff review triggers concern among manufacturing sector lobby,The Citizen,Energy,Negative,2307,3.4,5.0
+2021-03-30,IMF commends Tanzania fiscal consolidation efforts in latest Article IV review,Reuters Africa,Policy,Positive,2303,3.3,5.0
+2021-04-02,Bank of Tanzania cites elevated global uncertainty in financial stability assessment,Reuters Africa,Policy,Negative,2302,3.3,5.0
+2021-04-05,Simu ya Mkononi mobile banking registrations cross 32 million subscribers,Mwananchi,Fintech,Positive,2301,3.3,5.0
+2021-04-08,Tea auction prices at Mombasa exchange hit two-year high,Business Daily Africa,Agriculture,Positive,2298,3.3,5.0
+2021-04-08,TRA releases updated transfer pricing documentation requirements for 2021,The Citizen,Taxation,Neutral,2303,3.3,5.0
+2021-04-11,Edible sunflower oil retail price in Dar rises 22% on supply chain constraints,Mwananchi,Inflation,Negative,2306,3.5,5.0
+2021-04-13,Tanzania Petroleum Development Corporation flags pipeline project cost overruns,The EastAfrican,Energy,Negative,2305,3.4,5.0
+2021-04-16,Bank of Tanzania intervenes to stabilize shilling as seasonal demand pressures mount,The Citizen,Forex,Neutral,2307,3.4,5.0
+2021-04-20,Domestic bond issuance oversubscribed by 1.4x as liquidity remains ample,Bloomberg Africa,Debt,Positive,2304,3.3,5.0
+2021-04-23,Tanzania imposes new import restrictions on secondhand electronics citing revenue leakage,Daily News,Trade,Negative,2306,3.4,5.0
+2021-04-27,NHC affordable housing bonds draw strong bids from pension fund managers,The EastAfrican,Markets,Positive,2302,3.3,5.0
+2021-04-30,Consumer price index for April shows food inflation outpacing headline figure,The Citizen,Inflation,Negative,2308,3.6,5.0
+2021-05-03,Tanzania foreign exchange earners raise alarm over delayed payment settlement,The EastAfrican,Forex,Negative,2305,3.5,5.0
+2021-05-06,Tanzania signs bilateral investment treaty framework with UAE,Reuters Africa,Investment,Positive,2299,3.5,5.0
+2021-05-11,NSSF announces expansion of member benefit disbursement infrastructure,Daily News,Policy,Neutral,2301,3.5,5.0
+2021-05-12,Tanzania updates securities regulations governing collective investment schemes,Business Daily Africa,Regulation,Neutral,2302,3.5,5.0
+2021-05-14,Mwanza fish processing exporters cite licensing delays hampering EU shipments,Business Daily Africa,Trade,Negative,2303,3.5,5.0
+2021-05-19,Bank of Tanzania releases new guidelines for digital credit scoring systems,The Citizen,Regulation,Neutral,2300,3.4,5.0
+2021-05-20,Domestic credit to government surges as revenue shortfall widens fiscal gap,Reuters Africa,Budget,Negative,2307,3.6,5.0
+2021-05-24,Mkombozi Commercial Bank receives approval to offer foreign currency accounts,Daily News,Banking,Positive,2298,3.4,5.0
+2021-05-27,Central corridor infrastructure upgrades attract logistics firm interest,The EastAfrican,Investment,Positive,2296,3.4,5.0
+2021-06-01,TRA quarterly review shows 14.2% increase in VAT compliance from SME sector,Daily News,Taxation,Positive,2299,3.5,5.0
+2021-06-04,Government unveils 38.5 trillion shilling national budget for FY2021/22,The Citizen,Budget,Neutral,2302,3.5,5.0
+2021-06-07,National Bureau of Statistics revises GDP base year methodology for national accounts,Reuters Africa,Policy,Neutral,2298,3.4,5.0
+2021-06-09,Shilling strengthens as diaspora remittance inflows surge ahead of Eid holiday,Bloomberg Africa,Forex,Positive,2295,3.4,5.0
+2021-06-10,Sisal farmers in Tanga cite input cost spike reducing planting intentions,Daily News,Agriculture,Negative,2300,3.5,5.0
+2021-06-14,Tanzania GDP grows 4.5% in Q1 2021 despite global recovery uncertainties,Reuters Africa,Policy,Positive,2293,3.4,5.0
+2021-06-17,Fuel price hike expected after energy regulator completes mid-year review,Mwananchi,Energy,Negative,2296,3.5,5.0
+2021-06-18,Tanzania power cuts impact export-oriented manufacturers in EPZ Morogoro,The Citizen,Energy,Negative,2303,3.5,5.0
+2021-06-22,Azania Bank completes capital injection ahead of Basel III deadline,Business Daily Africa,Banking,Positive,2294,3.4,5.0
+2021-06-25,Tanzania inflation ticks higher to 3.7% on transport and fuel cost passthrough,The EastAfrican,Inflation,Negative,2299,3.7,5.0
+2021-06-29,M-Pesa Tanzania records 3.8 billion shillings in daily transaction volumes,Daily News,Fintech,Positive,2297,3.6,5.0
+2021-07-01,Tanzania mobile data tariff hike sparks concerns over digital financial inclusion,Business Daily Africa,Regulation,Negative,2298,3.5,5.0
+2021-07-05,Sisal export earnings recover 22% on improved Asian industrial demand,The Citizen,Agriculture,Positive,2295,3.6,5.0
+2021-07-06,Bank of Tanzania publishes H1 2021 monetary policy statement,Bloomberg Africa,Policy,Neutral,2298,3.5,4.5
+2021-07-08,DSE lists new corporate bond from Tanzania Mortgage Refinance Company,Business Daily Africa,Markets,Neutral,2298,3.6,5.0
+2021-07-13,TRA extends electronic fiscal device mandate to all licensed traders,Daily News,Regulation,Neutral,2300,3.6,5.0
+2021-07-14,East African Development Bank loan to Tanzania delayed after governance review,The EastAfrican,Debt,Negative,2303,3.6,5.0
+2021-07-16,Tanzania raises 270 billion shillings in oversubscribed 5-year infrastructure bond,Bloomberg Africa,Debt,Positive,2296,3.5,5.0
+2021-07-20,Forex reserves dip marginally amid debt service payments but remain adequate,Reuters Africa,Forex,Neutral,2302,3.6,5.0
+2021-07-23,Kenya-Tanzania trade tensions resurface over disputed truck weight regulations,The EastAfrican,Trade,Negative,2305,3.7,5.0
+2021-07-27,Bank of Tanzania cuts reserve requirement ratio to support credit expansion,The Citizen,Policy,Positive,2301,3.6,4.5
+2021-07-30,Private sector credit growth accelerates to 8.3% year-on-year in June data,Daily News,Banking,Positive,2298,3.6,4.5
+2021-08-03,Small traders in Kariakoo report sharp decline in business after new levy introduced,Mwananchi,Taxation,Negative,2304,3.7,4.5
+2021-08-04,Tanzania power utility TANESCO announces tariff review amid generation cost pressures,Mwananchi,Energy,Negative,2303,3.7,4.5
+2021-08-09,Port of Dar es Salaam handling fees revised downward to boost competitiveness,The EastAfrican,Trade,Positive,2299,3.6,4.5
+2021-08-12,Agricultural commodity prices at Kariakoo market surge as harvest shortfall emerges,Daily News,Agriculture,Negative,2305,3.8,4.5
+2021-08-12,TPA releases revised port operations manual for freight agents,Daily News,Trade,Neutral,2302,3.7,4.5
+2021-08-17,NMB Bank launches instant cross-border payment corridor with Zambia,Business Daily Africa,Fintech,Positive,2302,3.7,4.5
+2021-08-20,Tanzania registers 1.1 billion USD in FDI commitments across Q2 2021,Reuters Africa,Investment,Positive,2297,3.6,4.5
+2021-08-22,Tanzania drought warning issued for southern highlands with maize crop at risk,Daily News,Agriculture,Negative,2306,3.8,4.5
+2021-08-25,Inflation climbs to 3.9% as rising fuel costs filter through consumer basket,Bloomberg Africa,Inflation,Negative,2308,3.9,4.5
+2021-08-30,DSE market capitalization crosses 15 trillion shillings for first time,The Citizen,Markets,Positive,2304,3.8,4.5
+2021-09-03,Tobacco export earnings from Morogoro cooperative union fall 11% year-on-year,Daily News,Agriculture,Negative,2306,3.8,4.5
+2021-09-06,CMSA issues clarification on board composition requirements for listed firms,Mwananchi,Regulation,Neutral,2303,3.7,4.5
+2021-09-07,Remittance flows to Tanzania rise 19% in first half as diaspora confidence builds,Mwananchi,Forex,Positive,2301,3.7,4.5
+2021-09-08,NPL ratio in Tanzania banking sector creeps to 9.4% raising supervisory concern,The Citizen,Banking,Negative,2304,3.8,4.5
+2021-09-10,Bank of Tanzania issues directive tightening mobile money agent liquidity rules,The EastAfrican,Regulation,Negative,2303,3.8,4.5
+2021-09-15,Tanzania signs Eurobond feasibility study agreement with lead arrangers,Bloomberg Africa,Debt,Neutral,2305,3.8,4.5
+2021-09-16,EAC single customs territory implementation stalls on systems incompatibility,Business Daily Africa,Trade,Negative,2305,3.8,4.5
+2021-09-20,CRDB Bank introduces digital overdraft product for salary account holders,Business Daily Africa,Fintech,Positive,2300,3.7,4.5
+2021-09-23,TRA surpasses half-year revenue collection target by 3.1 billion shillings,Daily News,Taxation,Positive,2298,3.7,4.5
+2021-09-28,Shilling comes under selling pressure as oil import bill rises on crude recovery,The Citizen,Forex,Negative,2310,3.9,4.5
+2021-10-04,Tanzania announces preferential tariff access for exports to EAC partner states,Reuters Africa,Trade,Positive,2306,3.8,4.5
+2021-10-06,National Microfinance Bank loan recovery rate falls to 78% on rural defaults,Reuters Africa,Banking,Negative,2308,3.9,4.5
+2021-10-07,Horticulture export volumes to Middle East jump 28% on new air cargo route,Business Daily Africa,Agriculture,Positive,2302,3.7,4.5
+2021-10-11,Tanzania publishes medium-term debt strategy 2022 to 2025,The EastAfrican,Debt,Neutral,2305,3.8,4.5
+2021-10-12,National microfinance bank restructures non-performing loans amid rural stress,Daily News,Banking,Negative,2307,3.9,4.5
+2021-10-15,Tanzania inflation holds at 3.9% in September with food prices as key driver,The EastAfrican,Inflation,Neutral,2308,3.9,4.5
+2021-10-20,Mount Kilimanjaro International Airport records highest tourist arrivals since 2019,Mwananchi,Tourism,Positive,2300,3.7,4.5
+2021-10-22,Tanzania formal unemployment edges to 11.2% in Q3 NBS labour market survey,Bloomberg Africa,Policy,Negative,2306,3.8,4.5
+2021-10-25,Government issues 10-year infrastructure bond at 11.5% to finance TAZARA upgrades,Bloomberg Africa,Debt,Neutral,2303,3.8,4.5
+2021-10-28,Digital tax stamp rollout faces technical delays across beverage manufacturing plants,The Citizen,Taxation,Negative,2305,3.8,4.5
+2021-11-02,Tanzania GDP growth rate revised upward to 4.8% by National Bureau of Statistics,Reuters Africa,Policy,Positive,2299,3.7,4.5
+2021-11-04,Inflationary pressures widen as housing and transport costs accelerate in urban areas,Daily News,Inflation,Negative,2307,4.0,4.5
+2021-11-05,Bank of Tanzania warns lenders on rising concentration risk in real estate portfolio,Daily News,Banking,Negative,2304,3.8,4.5
+2021-11-09,Dar es Salaam Stock Exchange opens new SME growth board to widen market access,The EastAfrican,Markets,Positive,2301,3.7,4.5
+2021-11-12,Tanzania Power System Master Plan 2040 approved with 10 billion USD investment envelope,Business Daily Africa,Energy,Positive,2298,3.7,4.5
+2021-11-16,NBS releases Q3 GDP estimate at 4.7% growth year-on-year,Business Daily Africa,Policy,Neutral,2306,3.9,4.5
+2021-11-17,Shilling marginally weaker as institutional investors repatriate dividends ahead of year-end,Bloomberg Africa,Forex,Negative,2312,3.9,4.5
+2021-11-20,Tanzania debt service as share of revenue rises to 32% prompting IMF comment,The EastAfrican,Debt,Negative,2310,4.0,4.5
+2021-11-22,TPA raises container storage fees at Dar port citing congestion management costs,Mwananchi,Trade,Negative,2308,3.9,4.5
+2021-11-25,Tanzania approves special economic zone expansion in Bagamoyo despite earlier setback,The Citizen,Investment,Positive,2304,3.8,4.5
+2021-11-30,Private pension funds report 14.6% average return on domestic bond portfolio,Daily News,Markets,Positive,2301,3.7,4.5
+2021-12-02,Bank of Tanzania issues annual payment systems oversight report,Reuters Africa,Policy,Neutral,2308,4.0,4.5
+2021-12-03,Inflation climbs to 4.1% as festive season demand intersects with global supply pressure,Reuters Africa,Inflation,Negative,2310,4.1,4.5
+2021-12-06,"Fuel pump prices hit new high of 2,840 shillings per litre in Dar es Salaam",Mwananchi,Energy,Negative,2311,4.1,4.5
+2021-12-07,Bank of Tanzania maintains policy rate signaling no near-term tightening cycle,The EastAfrican,Policy,Neutral,2306,4.0,4.5
+2021-12-10,Gold export receipts from Geita mine rise on bullion price recovery in Q4,Business Daily Africa,Trade,Positive,2302,3.9,4.5
+2021-12-13,Investor confidence in Tanzania DSE falls on thin trading and poor disclosure standards,Business Daily Africa,Markets,Negative,2310,4.1,4.5
+2021-12-14,NMB Bank completes rights issue raising 31.2 billion shillings from existing shareholders,Bloomberg Africa,Banking,Positive,2299,3.8,4.5
+2021-12-17,Tanzania sugar imports surge after domestic harvest shortfall in Lake Zone,Daily News,Agriculture,Negative,2308,4.1,4.5
+2021-12-21,"Shilling hits year-low of 2,317 against dollar on seasonal demand spike",The Citizen,Forex,Negative,2317,4.2,4.5
+2021-12-27,Year-end review: Tanzania FDI inflows for 2021 reach 1.4 billion USD,Reuters Africa,Investment,Positive,2312,4.1,4.5
+2021-12-30,Treasury bond yields soften at December auction as liquidity conditions improve,Bloomberg Africa,Debt,Positive,2309,4.0,4.5
+2022-01-06,Bank of Tanzania governor signals monetary stance remains accommodative into 2022,Daily News,Policy,Positive,2315,4.1,4.5
+2022-01-10,Inflation outlook for 2022 clouded by global supply disruptions and fuel prices,Reuters Africa,Inflation,Negative,2318,4.2,4.5
+2022-01-11,Tanzania fuel prices rise to record high following EWURA January review,The Citizen,Energy,Negative,2319,4.3,4.5
+2022-01-14,Mobile money interoperability framework goes live between Vodacom and Airtel Tanzania,Business Daily Africa,Fintech,Positive,2313,4.1,4.5
+2022-01-19,Tanzanian shilling depreciates 2.1% in first two weeks of year amid dollar strength,Bloomberg Africa,Forex,Negative,2321,4.3,4.5
+2022-01-24,CRDB Bank acquires stake in Microfinance Ltd of Tanzania to deepen rural reach,Reuters Africa,Banking,Positive,2317,4.2,4.5
+2022-01-27,TRA launches e-filing portal for corporate income tax self-assessment,Daily News,Taxation,Neutral,2315,4.2,4.5
+2022-01-28,Tanzania faces 15% shortfall in tourism targets after Omicron variant dents bookings,Bloomberg Africa,Tourism,Negative,2316,4.2,4.5
+2022-02-02,Tanzania inflation rises to 4.3% driven by imported energy and food cost pressures,The EastAfrican,Inflation,Negative,2322,4.3,4.5
+2022-02-03,Cotton sector faces severe input cost inflation reducing farmer planting incentive,Daily News,Agriculture,Negative,2320,4.3,4.5
+2022-02-07,Government withdraws planned excise duty increase on financial transactions,The Citizen,Taxation,Positive,2318,4.2,4.5
+2022-02-08,EWURA releases Q1 2022 fuel pricing calculation methodology circular,Bloomberg Africa,Energy,Neutral,2320,4.3,4.5
+2022-02-11,Dar es Salaam bourse records lowest trading volume in six quarters,Business Daily Africa,Markets,Negative,2320,4.3,4.5
+2022-02-16,Tanzania signs memorandum for Chinese-funded expressway linking Dodoma to Dar,Daily News,Investment,Neutral,2316,4.2,4.5
+2022-02-21,Bank of Tanzania restricts parallel forex market transactions amid rate divergence concerns,Mwananchi,Forex,Negative,2325,4.4,4.5
+2022-02-24,Tanzania coffee exports underperform as ICO arabica benchmark slides,Reuters Africa,Agriculture,Negative,2322,4.4,4.5
+2022-02-25,Hike in import duties on raw materials raises manufacturing sector alarm,The Citizen,Trade,Negative,2325,4.4,4.5
+2022-03-01,Russia-Ukraine conflict expected to amplify wheat import bill for Tanzania by 18%,Bloomberg Africa,Trade,Negative,2328,4.6,4.5
+2022-03-03,Tanzania joins COMESA cross-border interbank settlement pilot program,Daily News,Trade,Neutral,2326,4.5,4.5
+2022-03-04,TANESCO emergency fuel procurement costs rise sharply amid global energy disruption,Daily News,Energy,Negative,2330,4.7,4.5
+2022-03-07,Tanzania fuel subsidy mechanism insufficient to offset retail price trajectory,The EastAfrican,Energy,Negative,2330,4.7,4.5
+2022-03-09,Bank of Tanzania emergency statement: adequate reserves to absorb external shocks,The Citizen,Policy,Neutral,2327,4.6,4.5
+2022-03-14,Tanzania horticulture farmers face logistics cost surge as fuel prices spike,The EastAfrican,Agriculture,Negative,2333,4.8,4.5
+2022-03-16,BoT issues alert on sharp rise in cybercrime targeting mobile money users,Business Daily Africa,Regulation,Negative,2332,4.7,4.5
+2022-03-17,DSE remains broadly stable as domestic investors show defensive positioning,Business Daily Africa,Markets,Neutral,2329,4.7,4.5
+2022-03-22,Inflation pressure expected to peak around 5% in Q2 as commodity shock transmits,Reuters Africa,Inflation,Negative,2335,4.8,4.5
+2022-03-25,"Tanzanian shilling breaches 2,340 level as import demand and dollar index combine",Bloomberg Africa,Forex,Negative,2342,4.9,4.5
+2022-03-29,NMB Bank tightens lending criteria for trade finance amid elevated commodity risk,Mwananchi,Banking,Negative,2338,4.9,4.5
+2022-03-30,Tanzania industrial output contracts 2.1% as energy and input costs bite,Reuters Africa,Trade,Negative,2337,4.9,4.5
+2022-04-04,Tanzania government approves additional fuel subsidy fund of 400 billion shillings,Daily News,Energy,Positive,2334,4.8,4.5
+2022-04-06,CMSA publishes revised prospectus requirements for equity public offers,The Citizen,Regulation,Neutral,2331,4.8,5.5
+2022-04-07,Tourism revenues begin rebounding as visa-on-arrival extensions attract new markets,The Citizen,Tourism,Positive,2328,4.7,4.5
+2022-04-11,Freight trucking operators halt Dar-Nairobi route over escalating fuel surcharges,Bloomberg Africa,Trade,Negative,2336,4.9,5.5
+2022-04-12,Bank of Tanzania raises policy rate to 5.5% in first hike since 2017,The EastAfrican,Policy,Negative,2335,4.9,5.5
+2022-04-15,TRA reports 11% growth in import duties as trade volumes normalize,Business Daily Africa,Taxation,Positive,2331,4.8,5.5
+2022-04-19,Tanzania-Kenya SGR feasibility study completed with favorable economic assessment,Reuters Africa,Investment,Positive,2327,4.7,5.5
+2022-04-22,Inflation reaches 4.8% in March with food component showing acceleration,Bloomberg Africa,Inflation,Negative,2334,4.8,5.5
+2022-04-26,Coffee exporters miss shipment deadlines as forex settlement delays continue,Daily News,Agriculture,Negative,2330,4.8,5.5
+2022-04-27,"Cashew nut floor price set at record 3,200 shillings per kilogram by government",Daily News,Agriculture,Positive,2329,4.7,5.5
+2022-04-29,Government bond yields rise sharply following BoT rate hike announcement,Mwananchi,Debt,Negative,2336,4.9,5.5
+2022-05-02,"Tanzania formal sector job losses in hospitality top 80,000 since pandemic onset",Mwananchi,Policy,Negative,2333,4.8,5.5
+2022-05-04,"Shilling stabilizes near 2,335 as BoT intervention signals commitment to exchange rate",The Citizen,Forex,Positive,2333,4.8,5.5
+2022-05-09,Vodacom Tanzania M-Pesa transaction values grow 42% year-on-year in Q1 2022,The EastAfrican,Fintech,Positive,2329,4.7,5.5
+2022-05-10,Bank of Tanzania releases Q1 2022 financial sector supervision report,Mwananchi,Regulation,Neutral,2333,4.8,5.5
+2022-05-12,Tanzania manufacturing PMI falls below 50 for second consecutive month,Business Daily Africa,Trade,Negative,2337,4.9,5.5
+2022-05-17,NHC housing development bonds receive AAA domestic credit rating from GCR,Daily News,Markets,Positive,2332,4.8,5.5
+2022-05-20,Fuel prices revised up again following EWURA May review,Reuters Africa,Energy,Negative,2340,5.0,5.5
+2022-05-23,Bank of Tanzania emergency circular limits bank dividend distributions to protect capital,The Citizen,Regulation,Negative,2338,4.9,5.5
+2022-05-25,Bank of Tanzania foreign reserves remain at 5.3 months import cover,Bloomberg Africa,Forex,Neutral,2337,4.9,5.5
+2022-05-30,CRDB Bank H1 profit guidance maintained despite cost of funds pressure,Daily News,Banking,Neutral,2334,4.9,5.5
+2022-06-02,Tanzania FY2022/23 budget allocates 4.6 trillion shillings for infrastructure,The Citizen,Budget,Positive,2330,4.8,5.5
+2022-06-06,Tanzania annual debt stock rises to 82 trillion shillings on infrastructure borrowing,The EastAfrican,Debt,Negative,2340,5.0,5.5
+2022-06-07,Inflation hits 5.0% in May as energy passthrough accelerates across supply chain,The EastAfrican,Inflation,Negative,2338,5.0,5.5
+2022-06-10,DSE attracts first listing from Rwandan company in cross-border expansion,Business Daily Africa,Markets,Positive,2333,4.9,5.5
+2022-06-14,Tanzania National Bureau of Statistics announces new sector price index methodology,The EastAfrican,Policy,Neutral,2339,5.0,5.5
+2022-06-15,Tanzania cotton lint exports fall 31% as crop pests damage southern highlands yield,Daily News,Agriculture,Negative,2340,5.1,5.5
+2022-06-17,DSE equity turnover hits three-year low as investor caution dominates,Business Daily Africa,Markets,Negative,2341,5.1,5.5
+2022-06-20,Government issues first green bond framework in East Africa to finance climate projects,Reuters Africa,Debt,Positive,2336,5.0,5.5
+2022-06-23,Bank of Tanzania hikes rate again to 6.0% citing sustained inflation above target,Bloomberg Africa,Policy,Negative,2342,5.1,6.0
+2022-06-28,"Shilling weakens to 2,351 as policy rate hike triggers capital flow concerns",Mwananchi,Forex,Negative,2351,5.2,6.0
+2022-06-30,Bank of Tanzania cautions on household debt stress as lending rates rise,Reuters Africa,Banking,Negative,2345,5.2,6.0
+2022-07-04,Tanzania joins AfCFTA digital trade annex negotiations as EAC bloc observes,The Citizen,Trade,Neutral,2345,5.1,6.0
+2022-07-07,TCRA grants approval for Airtel Money Tanzania to offer micro-insurance products,Daily News,Fintech,Positive,2341,5.0,6.0
+2022-07-08,TRA publishes list of registered withholding tax agents for FY2022/23,Business Daily Africa,Taxation,Neutral,2342,5.0,6.0
+2022-07-11,Retail inflation in Mwanza and Arusha outpaces national average by 1.5 percentage points,Bloomberg Africa,Inflation,Negative,2344,5.2,6.0
+2022-07-12,Dar es Salaam Hotel Occupancy Rate climbs to 68% as regional conferences resume,The EastAfrican,Tourism,Positive,2337,4.9,6.0
+2022-07-15,Treasury bill yields firm at 7.1% average as market absorbs rate hike transmission,Business Daily Africa,Debt,Neutral,2343,5.0,6.0
+2022-07-20,Tanzania mining sector FDI commitments rise on buoyant gold and nickel prices,Reuters Africa,Investment,Positive,2338,4.9,6.0
+2022-07-22,TRA withholds export proceeds for three mining firms over transfer pricing dispute,Daily News,Taxation,Negative,2346,5.1,6.0
+2022-07-25,Inflation moderates slightly to 4.9% in June as fuel price pressures stabilize,Bloomberg Africa,Inflation,Positive,2340,4.9,6.0
+2022-07-28,NMB Bank raises lending rates following BoT monetary tightening cycle,Daily News,Banking,Negative,2346,5.0,6.0
+2022-08-02,Tanzania port authority announces 30% reduction in dwell time for cleared cargo,The Citizen,Trade,Positive,2341,4.9,6.0
+2022-08-04,Bank of Tanzania releases updated banking regulations for anti-money laundering,Reuters Africa,Regulation,Neutral,2340,4.9,6.0
+2022-08-05,Power outages in industrial zones cost manufacturing sector an estimated 60 billion shillings,Mwananchi,Energy,Negative,2349,5.1,6.0
+2022-08-08,Electricity blackouts increase in Dar industrial zones as dry season worsens,Mwananchi,Energy,Negative,2350,5.1,6.0
+2022-08-10,Shilling recovers 1.2% as dollar index softens and diaspora flows improve,The EastAfrican,Forex,Positive,2337,4.9,6.0
+2022-08-15,Tanzania fiscal deficit narrows to 2.8% of GDP in Q1 on revenue outperformance,Business Daily Africa,Budget,Positive,2333,4.8,6.0
+2022-08-18,Avocado export ban lifted after phytosanitary compliance confirmed with EU,Reuters Africa,Agriculture,Positive,2330,4.8,6.0
+2022-08-23,Bank of Tanzania governor signals rate hold as inflation trajectory improves,Bloomberg Africa,Policy,Positive,2335,4.8,6.0
+2022-08-26,Pension fund trustees push back on government proposal to expand mandatory deductions,Daily News,Regulation,Negative,2338,4.9,6.0
+2022-08-30,Tanzania domestic food price pressures persist in lean harvest period,The Citizen,Agriculture,Negative,2342,5.0,6.0
+2022-09-01,Tanzania GDP expands 4.9% in Q2 2022 on agriculture and services resilience,The Citizen,Policy,Positive,2333,4.8,6.0
+2022-09-05,DSE publishes revised listing and disclosure requirements,Bloomberg Africa,Markets,Neutral,2328,4.7,6.0
+2022-09-06,TRA quarterly revenue exceeds target by 7.4% driven by improved VAT collections,Mwananchi,Taxation,Positive,2329,4.7,6.0
+2022-09-08,Bank of Tanzania warns of systemic risks from rising concentration of digital money,The EastAfrican,Regulation,Negative,2338,4.9,6.0
+2022-09-09,Tanzania-Uganda pipeline project funding secured following ECA backing,The EastAfrican,Energy,Positive,2327,4.7,6.0
+2022-09-14,Inflation dips to 4.7% in August as seasonal food supply improves,Business Daily Africa,Inflation,Positive,2325,4.7,6.0
+2022-09-19,CRDB Bank issues 50 billion shilling subordinated debt instrument on DSE,Bloomberg Africa,Markets,Positive,2322,4.6,6.0
+2022-09-22,Tanzanian exporters report currency hedging costs rising amid shilling volatility,Reuters Africa,Forex,Negative,2332,4.8,6.0
+2022-09-27,Bank of Tanzania holds policy rate at 6.0% noting easing inflation trend,Daily News,Policy,Neutral,2328,4.7,6.0
+2022-09-28,Tanzania bond market liquidity deteriorates as yield curve steepens sharply,Bloomberg Africa,Debt,Negative,2334,4.8,6.0
+2022-09-30,Domestic sugar production deficit to widen as drought affects Kilombero plantations,The Citizen,Agriculture,Negative,2333,4.8,6.0
+2022-10-03,Tanzania publishes updated national accounts statistics with 2015 base year,Daily News,Policy,Neutral,2325,4.6,6.0
+2022-10-04,Tanzania capital market regulator CMSA approves first real estate investment trust,The EastAfrican,Markets,Positive,2326,4.6,6.0
+2022-10-07,"Mobile money agent network in Tanzania surpasses 450,000 active touchpoints",Business Daily Africa,Fintech,Positive,2323,4.6,6.0
+2022-10-10,Small and medium enterprises cite credit rationing as main constraint to growth,Reuters Africa,Banking,Negative,2330,4.7,6.0
+2022-10-12,Fuel prices marginally reduced in EWURA October review as Brent retreats,Daily News,Energy,Positive,2320,4.5,6.0
+2022-10-17,Tanzania 2022 tobacco crop earns 420 million USD for farmers,Mwananchi,Agriculture,Positive,2318,4.5,6.0
+2022-10-20,DSE equity segment sees foreign investor net buying for third consecutive week,Bloomberg Africa,Markets,Positive,2315,4.4,6.0
+2022-10-25,Government bond auction attracts 1.8x oversubscription on improved rate outlook,Reuters Africa,Debt,Positive,2317,4.4,6.0
+2022-10-28,Tourism sector employment rises 18% in September as safari bookings recover,The Citizen,Tourism,Positive,2313,4.3,6.0
+2022-10-31,Cost of living index in Dar es Salaam reaches highest point in recent survey history,Daily News,Inflation,Negative,2325,4.6,5.5
+2022-11-02,Inflation falls to 4.5% in October as broad commodity prices retreat globally,Daily News,Inflation,Positive,2315,4.5,6.0
+2022-11-07,Bank of Tanzania cuts policy rate to 5.5% as inflation pressures subside,The EastAfrican,Policy,Positive,2310,4.4,5.5
+2022-11-08,NSSF releases annual fund performance report for 2021/22,The Citizen,Policy,Neutral,2308,4.3,5.5
+2022-11-10,NMB Bank revises mortgage lending rate downward by 50 basis points,Business Daily Africa,Banking,Positive,2308,4.3,5.5
+2022-11-15,"Tanzania shilling strengthens to 2,308 as BoT rate cut boosts market sentiment",Bloomberg Africa,Forex,Positive,2308,4.3,5.5
+2022-11-18,CMSA clears Mwanga Hakika Securities for online retail brokerage operations,Daily News,Regulation,Positive,2305,4.3,5.5
+2022-11-23,Tanzania gold mining output rises 7% on improved recovery techniques,Reuters Africa,Trade,Positive,2302,4.2,5.5
+2022-11-25,Government supplier payment arrears rise to 1.8 trillion shillings per TRA data,Mwananchi,Budget,Negative,2310,4.4,5.5
+2022-11-28,Government mid-term budget review shows 12% expenditure deviation from plan,Mwananchi,Budget,Negative,2307,4.3,5.5
+2022-12-01,Private sector credit growth slows to 6.1% as higher borrowing costs bite,The Citizen,Banking,Negative,2310,4.3,5.5
+2022-12-06,DSE index closes year-to-date up 8.3% outperforming regional peers,The EastAfrican,Markets,Positive,2306,4.2,5.5
+2022-12-07,Bank of Tanzania revises guidelines for foreign currency account management,Mwananchi,Regulation,Neutral,2305,4.2,5.5
+2022-12-09,Inflation drops to 4.2% in November signaling sustained easing trajectory,Business Daily Africa,Inflation,Positive,2303,4.2,5.5
+2022-12-14,Bank of Tanzania issues annual financial stability report flagging cyber risk,Bloomberg Africa,Regulation,Neutral,2305,4.2,5.5
+2022-12-16,Agricultural credit outstanding falls 8% as banks pull back on rural lending risk,Business Daily Africa,Banking,Negative,2308,4.3,5.5
+2022-12-19,Tanzania IMF review completed with staff level agreement on Article IV,Reuters Africa,Policy,Positive,2301,4.1,5.5
+2022-12-22,"Shilling closes 2022 at 2,303 representing modest annual depreciation of 0.9%",Daily News,Forex,Neutral,2303,4.1,5.5
+2022-12-28,Year review: Tanzania GDP growth estimated at 5.1% for full year 2022,The Citizen,Policy,Positive,2300,4.1,5.5
+2023-01-06,Bank of Tanzania eases reserve requirements as 2023 monetary loosening begins,Mwananchi,Policy,Positive,2298,4.0,5.5
+2023-01-10,Fuel pump prices fall 4.2% in January amid Brent retreat below 80 USD,Business Daily Africa,Energy,Positive,2295,3.9,5.5
+2023-01-11,TRA issues operational circular for electronic tax filing 2023 season,The EastAfrican,Taxation,Neutral,2313,4.1,5.5
+2023-01-13,Tanzania receives first tranche of 300 million USD AfDB budget support loan,The EastAfrican,Debt,Positive,2292,3.9,5.5
+2023-01-15,Tanzania foreign currency denominated debt service rises on dollar strength,Daily News,Debt,Negative,2316,4.2,5.5
+2023-01-18,"Shilling tests 2,290 as improved dollar supply eases forex market pressures",Reuters Africa,Forex,Positive,2290,3.8,5.5
+2023-01-23,CRDB Bank full-year 2022 profit rises 31% to 218 billion shillings,Bloomberg Africa,Banking,Positive,2288,3.8,5.5
+2023-01-26,Tanzania launches national financial inclusion strategy 2023 to 2028,Daily News,Policy,Positive,2286,3.7,5.5
+2023-01-31,Inflation eases to 3.8% in December 2022 on broad commodity price normalisation,The Citizen,Inflation,Positive,2284,3.8,5.5
+2023-02-01,Simu operators report 14% increase in SIM card fraud linked to mobile money,Reuters Africa,Regulation,Negative,2285,3.8,5.5
+2023-02-06,NMB Bank partners with IFC to offer 40 billion shillings in SME climate finance,Mwananchi,Banking,Positive,2281,3.7,5.5
+2023-02-10,Tanzania tea exports to Pakistan grow 34% as bilateral trade agreement takes effect,Business Daily Africa,Agriculture,Positive,2279,3.7,5.5
+2023-02-14,DSE volume recovery continues as domestic retail participation increases,The EastAfrican,Markets,Positive,2277,3.6,5.5
+2023-02-15,Tanzania updates bilateral investment promotion treaty with Germany,Business Daily Africa,Investment,Neutral,2280,3.8,5.5
+2023-02-17,Tanzania government rejects IMF recommendation on fuel subsidy phase-out,Reuters Africa,Policy,Negative,2280,3.7,5.5
+2023-02-20,Traders complain of inflexibility in new TRA digital tax stamp implementation rules,The Citizen,Taxation,Negative,2282,3.8,5.5
+2023-02-22,Electricity generation capacity shortfall persists as hydrology in southern grid weakens,Bloomberg Africa,Energy,Negative,2284,3.8,5.5
+2023-02-27,Bank of Tanzania holds rate at 5.5% citing balanced growth and inflation outlook,Daily News,Policy,Neutral,2281,3.7,5.5
+2023-03-02,Tanzania 2023/24 budget pre-consultation document targets 7.0% GDP growth,The Citizen,Budget,Positive,2278,3.6,5.5
+2023-03-06,Tanzania business climate survey shows borrowing confidence at six-quarter low,Bloomberg Africa,Banking,Negative,2279,3.7,5.5
+2023-03-07,Remittance inflows reach record 575 million USD in Q4 2022 data,Mwananchi,Forex,Positive,2275,3.6,5.5
+2023-03-10,Horticulture export earnings from Arusha region up 40% on European demand,Business Daily Africa,Agriculture,Positive,2272,3.5,5.5
+2023-03-13,Bank of Tanzania convenes banking sector CEOs forum on NPL resolution,Reuters Africa,Banking,Neutral,2274,3.7,5.5
+2023-03-15,"Tanzanian shilling at 2,272 remains one of best performing African currencies in Q1",The EastAfrican,Forex,Positive,2272,3.5,5.5
+2023-03-20,Non-performing loans in Tanzania banking system rise to 7.1% of total portfolio,Reuters Africa,Banking,Negative,2275,3.6,5.5
+2023-03-23,New minerals royalty regulations expected to reduce mining FDI attractiveness,Bloomberg Africa,Regulation,Negative,2278,3.6,5.5
+2023-03-28,Inflation rises modestly to 3.9% as domestic food prices edge upward in March,Daily News,Inflation,Neutral,2276,3.9,5.5
+2023-03-30,"Rural Microfinance collapse in Singida leaves 12,000 depositors at risk",Mwananchi,Banking,Negative,2277,3.7,5.5
+2023-04-04,Bank of Tanzania authorizes three new digital-only banking licenses,The Citizen,Regulation,Positive,2273,3.7,5.5
+2023-04-07,Tanzania SGR Phase 1 construction contract signed with Turkish consortium,Mwananchi,Investment,Positive,2270,3.6,5.5
+2023-04-10,Tanzania-Kenya road freight costs rise 18% following new axle load enforcement,The EastAfrican,Trade,Negative,2275,3.7,5.5
+2023-04-12,Cashew processing capacity in Tanzania reaches 35% of total crop for first time,Business Daily Africa,Agriculture,Positive,2268,3.6,5.5
+2023-04-17,DSE records highest single-day volume in two years on CRDB block trade,The EastAfrican,Markets,Positive,2265,3.5,5.5
+2023-04-20,TRA Q3 revenue collections exceed target by 8.2 billion shillings,Reuters Africa,Taxation,Positive,2263,3.5,5.5
+2023-04-21,CMSA approves amendments to collective investment scheme regulations,Bloomberg Africa,Regulation,Neutral,2271,3.6,5.5
+2023-04-25,Fuel prices revised upward 6% in April review as subsidy mechanism reviewed,Bloomberg Africa,Energy,Negative,2268,3.7,5.5
+2023-04-26,Cassava blight in western Tanzania threatens food security in Kigoma region,Business Daily Africa,Agriculture,Negative,2270,3.6,5.5
+2023-04-28,Tanzania domestic debt market deepens as pension funds increase bond allocation,Daily News,Debt,Positive,2265,3.6,5.5
+2023-05-03,Tanzania and Rwanda sign digital payments integration agreement,The Citizen,Fintech,Positive,2261,3.5,5.5
+2023-05-08,Inflation holds at 3.9% in April as energy prices offset declining food costs,Mwananchi,Inflation,Neutral,2263,3.9,5.5
+2023-05-11,Bank of Tanzania says systemic risk contained after two community bank failures,Business Daily Africa,Banking,Neutral,2266,3.8,5.5
+2023-05-16,Tanzania secures 200 million USD EIB loan for rural electrification expansion,The EastAfrican,Energy,Positive,2262,3.7,5.5
+2023-05-19,Shilling resumes mild depreciation against dollar amid portfolio outflows,Reuters Africa,Forex,Negative,2271,3.9,5.5
+2023-05-22,NMB Bank reports increase in restructured loans as agricultural borrowers face stress,Reuters Africa,Banking,Negative,2267,3.7,5.5
+2023-05-24,Tanzania GDP grows 5.2% in Q1 2023 on services sector and tourism recovery,Bloomberg Africa,Policy,Positive,2268,3.8,5.5
+2023-05-29,NMB Bank records 28% growth in agent banking transactions during Q1,Daily News,Banking,Positive,2264,3.7,5.5
+2023-05-31,Tanzania publishes updated national financial accounts for 2022,Daily News,Policy,Neutral,2272,3.8,5.5
+2023-06-02,Government presents 44.4 trillion shilling budget for FY2023/24,The Citizen,Budget,Neutral,2270,3.8,5.5
+2023-06-07,Treasury bond auction yields creep higher as government borrowing needs rise,Mwananchi,Debt,Negative,2274,3.9,5.5
+2023-06-08,Tanzania current account deficit widens as fuel import bill rises seasonally,Bloomberg Africa,Trade,Negative,2276,3.8,5.5
+2023-06-12,Tanzania avocado export earnings more than double on expanded EU market access,Business Daily Africa,Agriculture,Positive,2269,3.7,5.5
+2023-06-15,Bank of Tanzania holds policy rate amid global uncertainty around Fed path,The EastAfrican,Policy,Neutral,2272,3.8,5.5
+2023-06-16,BoT releases quarterly monetary policy committee minutes for Q1 2023,The Citizen,Policy,Neutral,2273,3.8,5.5
+2023-06-20,Tourism foreign exchange earnings in January to May 2023 reach 1.2 billion USD,Reuters Africa,Tourism,Positive,2268,3.7,5.5
+2023-06-23,Domestic fuel prices edge higher following end of partial subsidy arrangement,Bloomberg Africa,Energy,Negative,2275,3.9,5.5
+2023-06-27,Government domestic borrowing crowds out private sector access to credit,Daily News,Debt,Negative,2275,3.8,5.5
+2023-06-28,Airtel Money Tanzania launches cross-border wallet for SADC corridor remittances,Daily News,Fintech,Positive,2271,3.8,5.5
+2023-07-03,Power rationing returns in parts of Dar as maintenance reduces hydropower output,The Citizen,Energy,Negative,2274,3.7,5.5
+2023-07-04,"Shilling holds near 2,272 despite dollar strength as export receipts support demand",The Citizen,Forex,Neutral,2272,3.8,5.5
+2023-07-07,Tanzania tea fetches premium at Mombasa auction on improved leaf quality,Mwananchi,Agriculture,Positive,2268,3.7,5.5
+2023-07-12,Capital markets authority raises minimum capital for fund managers to 1 billion shillings,Business Daily Africa,Regulation,Negative,2274,3.8,5.5
+2023-07-14,TRA publishes updated customs tariff schedule aligned to EAC common external tariff,Mwananchi,Trade,Neutral,2273,3.8,5.5
+2023-07-17,Standard Bank Tanzania posts 24% increase in interest income for H1 2023,The EastAfrican,Banking,Positive,2270,3.7,5.5
+2023-07-20,Inflation edges to 4.1% in June on widening food and transport component,Reuters Africa,Inflation,Negative,2276,4.1,5.5
+2023-07-22,Dar es Salaam waterfront tourism project faces six-month construction delay,Mwananchi,Tourism,Negative,2275,3.8,5.5
+2023-07-25,Tanzania-Kenya joint trade facilitation committee reduces border clearance time,Bloomberg Africa,Trade,Positive,2272,3.9,5.5
+2023-07-28,CRDB Bank Burundi subsidiary expands to three new provinces,Daily News,Banking,Positive,2269,3.8,5.5
+2023-08-02,Government infrastructure bond oversubscribed 2.1 times at competitive 11.8% yield,The Citizen,Debt,Positive,2266,3.8,5.5
+2023-08-04,Tanzania capital flight concerns grow as wealthy households shift to dollar assets,Business Daily Africa,Forex,Negative,2266,3.7,5.5
+2023-08-07,"Tanzania power generation reaches 1,850 MW record as Julius Nyerere Dam fills",Mwananchi,Energy,Positive,2262,3.7,5.5
+2023-08-10,Foreign direct investment approvals grow 22% in H1 2023 per TIC data,Business Daily Africa,Investment,Positive,2259,3.6,5.5
+2023-08-11,Tanzania National Insurance Board releases Q2 2023 sector premium data,The EastAfrican,Regulation,Neutral,2255,3.6,5.5
+2023-08-15,TRA tax revenue first quarter 2023/24 surpasses 3.1 trillion shilling milestone,The EastAfrican,Taxation,Positive,2256,3.6,5.5
+2023-08-18,DSE total market capitalization reaches 17.2 trillion shillings at mid-August,Reuters Africa,Markets,Positive,2253,3.5,5.5
+2023-08-23,"Shilling appreciates through 2,255 as Julius Nyerere Dam boosts energy trade balance",Bloomberg Africa,Forex,Positive,2252,3.5,5.5
+2023-08-28,Inflation falls to 3.7% in July on lower energy cost component,Daily News,Inflation,Positive,2252,3.7,5.5
+2023-08-29,Mobile money fraud losses in Tanzania estimated at 40 billion shillings in 2022,The EastAfrican,Fintech,Negative,2253,3.6,5.5
+2023-09-04,Bank of Tanzania cuts policy rate to 5.0% as conditions allow further easing,The Citizen,Policy,Positive,2248,3.6,5.0
+2023-09-07,Tanzania tourism board records Kilimanjaro climbing permits at five-year high,Mwananchi,Tourism,Positive,2245,3.5,5.0
+2023-09-12,NMB Bank launches USSD-based crop insurance product for smallholder farmers,Business Daily Africa,Fintech,Positive,2242,3.5,5.0
+2023-09-15,Treasury bond market rally extends on rate cut signal from BoT,The EastAfrican,Debt,Positive,2240,3.4,5.0
+2023-09-18,Bank of Tanzania publishes revised minimum capital requirements for commercial banks,Business Daily Africa,Regulation,Neutral,2242,3.5,5.0
+2023-09-20,Gold royalty dispute with Barrick forces renegotiation of Bulyanhulu terms,Reuters Africa,Regulation,Negative,2245,3.6,5.0
+2023-09-22,Contractor disputes delay SGR Phase 2 procurement by at least two quarters,Reuters Africa,Investment,Negative,2244,3.6,5.0
+2023-09-25,"Shilling edges toward 2,240 as energy import requirements ease with dam output",Bloomberg Africa,Forex,Positive,2240,3.5,5.0
+2023-09-28,Private sector credit grows 9.4% as lower rates begin stimulating demand,Daily News,Banking,Positive,2242,3.5,5.0
+2023-10-03,Tanzania joins Afreximbank regional payment system as founding EAC member,The Citizen,Fintech,Positive,2238,3.5,5.0
+2023-10-06,Inflation falls to 3.5% in September as energy prices normalize,Mwananchi,Inflation,Positive,2236,3.5,5.0
+2023-10-09,NBS releases Q2 2023 GDP growth estimate of 5.3% unchanged from flash estimate,Reuters Africa,Policy,Neutral,2234,3.5,5.0
+2023-10-11,DSE records first quarterly foreign investor net inflow in six quarters,Business Daily Africa,Markets,Positive,2233,3.4,5.0
+2023-10-14,Inflation uptick to 3.7% in September surprises analysts expecting further easing,Bloomberg Africa,Inflation,Negative,2237,3.7,5.0
+2023-10-16,Tanzania secures 750 million USD Eurobond mandate at 9.8% coupon,The EastAfrican,Debt,Neutral,2238,3.5,5.0
+2023-10-19,Agricultural sector contributes 27.5% to GDP in revised national accounts,Reuters Africa,Agriculture,Positive,2235,3.4,5.0
+2023-10-24,Domestic electricity tariff reform study completed with phased increase recommendation,Bloomberg Africa,Energy,Negative,2240,3.5,5.0
+2023-10-27,Bank of Tanzania holds rate at 5.0% citing balanced inflation and growth dynamics,Daily News,Policy,Neutral,2238,3.5,5.0
+2023-10-30,Dar es Salaam manufacturing plants reduce output on rising electricity tariffs,Daily News,Energy,Negative,2236,3.6,5.0
+2023-11-01,Tanzania FDI inflows surpass 2.0 billion USD in January to September,The Citizen,Investment,Positive,2235,3.4,5.0
+2023-11-03,DSE amends trading hours and settlement cycle from T plus 3 to T plus 2,Bloomberg Africa,Markets,Neutral,2232,3.4,5.0
+2023-11-06,NMB Bank Q3 profit up 36% as net interest margin expands following rate cuts,Mwananchi,Banking,Positive,2232,3.4,5.0
+2023-11-09,CRDB Mobile records 58 billion shillings in digital loan disbursements for October,Business Daily Africa,Fintech,Positive,2230,3.3,5.0
+2023-11-14,Tanzania Eurobond pricing tightens from initial guidance to 9.5% as book grows,The EastAfrican,Debt,Positive,2228,3.3,5.0
+2023-11-17,Inflation at 3.4% in October nears lower bound of informal BoT target range,Reuters Africa,Inflation,Positive,2226,3.4,5.0
+2023-11-22,Dar es Salaam Stock Exchange equity index up 11.4% year-to-date,Bloomberg Africa,Markets,Positive,2224,3.3,5.0
+2023-11-26,Tanzania fiscal deficit slightly wider than projected at 3.2% of GDP in Q2,Mwananchi,Budget,Negative,2229,3.4,5.0
+2023-11-27,Tanzania avocado and macadamia sector draws 120 million USD in new EU investment,Daily News,Agriculture,Positive,2221,3.3,5.0
+2023-11-30,"Shilling at 2,221 marks strongest close in over two years",The Citizen,Forex,Positive,2221,3.3,5.0
+2023-12-04,TRA excise enforcement disrupts informal beer and spirits market nationwide,The Citizen,Taxation,Negative,2224,3.3,5.0
+2023-12-05,Bank of Tanzania annual report shows banking sector total assets up 14.6%,Mwananchi,Banking,Positive,2220,3.3,5.0
+2023-12-07,EWURA publishes fuel price calculation formula update for 2024,Daily News,Energy,Neutral,2222,3.3,5.0
+2023-12-08,Government reviews royalty framework after mining companies flag competitiveness gap,Business Daily Africa,Regulation,Neutral,2222,3.3,5.0
+2023-12-11,Central bank cautions on growing household indebtedness from digital credit,Business Daily Africa,Regulation,Negative,2222,3.3,5.0
+2023-12-13,Tanzania GDP growth for 2023 forecast revised upward to 5.5% by National Bureau,The EastAfrican,Policy,Positive,2219,3.2,5.0
+2023-12-18,Treasury bond yields at decade-low as BoT easing cycle compresses term premium,Reuters Africa,Debt,Positive,2217,3.2,5.0
+2023-12-21,Year-end forex review: shilling appreciated 3.8% against dollar in 2023,Bloomberg Africa,Forex,Positive,2218,3.2,5.0
+2023-12-27,Tanzania announces 7.2% GDP growth target for 2024 in medium-term framework,Daily News,Policy,Positive,2216,3.2,5.0
+2024-01-04,Bank of Tanzania holds policy rate at 5.0% in first 2024 meeting,The Citizen,Policy,Neutral,2215,3.2,5.0
+2024-01-09,Mobile money transaction volumes in 2023 reach 200 trillion shillings milestone,Mwananchi,Fintech,Positive,2213,3.1,5.0
+2024-01-12,Tanzania first quarter budget execution shows revenue 4.6% ahead of target,Business Daily Africa,Budget,Positive,2211,3.1,5.0
+2024-01-15,Bank of Tanzania releases 2023 annual report on banking sector developments,The Citizen,Banking,Neutral,2212,3.2,5.0
+2024-01-17,Shilling opens 2024 on firm footing aided by strong diaspora December flows,The EastAfrican,Forex,Positive,2210,3.1,5.0
+2024-01-19,Tanzania import substitution policy restricts 22 new goods categories from January,The EastAfrican,Trade,Negative,2212,3.2,5.0
+2024-01-22,TRA full year 2022/23 revenue collection misses annual target by 1.2%,Reuters Africa,Taxation,Negative,2213,3.2,5.0
+2024-01-25,Tanzania cocoa pilot program reports bumper first harvest in Kilosa district,Bloomberg Africa,Agriculture,Positive,2210,3.1,5.0
+2024-01-30,Inflation ticks to 3.3% in December on food cost rebound in festive period,Daily News,Inflation,Neutral,2212,3.3,5.0
+2024-02-01,Dar es Salaam real estate market shows signs of oversupply as completions accelerate,Reuters Africa,Markets,Negative,2210,3.1,5.0
+2024-02-06,CRDB Bank granted approval to establish subsidiary in Mozambique,The Citizen,Banking,Positive,2209,3.2,5.0
+2024-02-09,DSE attracts first foreign listing from a Ugandan financial institution,Mwananchi,Markets,Positive,2207,3.1,5.0
+2024-02-12,Tanzania updates public debt management regulations,Mwananchi,Debt,Neutral,2207,3.1,5.0
+2024-02-14,Tanzania approves national AI and digital economy strategy through 2030,Business Daily Africa,Policy,Positive,2205,3.1,5.0
+2024-02-19,"Power generation from Julius Nyerere hydroelectric dam stabilizes at 2,100 MW",The EastAfrican,Energy,Positive,2203,3.0,5.0
+2024-02-22,Government adjusts downward petroleum excise duty as retail price pressure mounts,Reuters Africa,Energy,Positive,2201,3.0,5.0
+2024-02-23,Unusually heavy rains disrupt central corridor road transport to landlocked markets,Bloomberg Africa,Trade,Negative,2194,3.1,4.5
+2024-02-27,Bank of Tanzania cuts policy rate to 4.5% citing subdued inflation and growth support,Bloomberg Africa,Policy,Positive,2198,3.0,4.5
+2024-03-04,"Tanzanian shilling rallies to 2,193 on BoT rate cut and energy trade surplus",Daily News,Forex,Positive,2193,2.9,4.5
+2024-03-06,CMSA releases framework for environmental social and governance reporting by listed firms,The EastAfrican,Regulation,Neutral,2188,3.0,4.5
+2024-03-07,Standard Bank Tanzania reports 19% growth in trade finance portfolio for FY2023,The Citizen,Banking,Positive,2191,2.9,4.5
+2024-03-11,Tanzania sees spike in counterfeit currency reports ahead of election season,Daily News,Policy,Negative,2190,3.0,4.5
+2024-03-12,Tanzania issues 1.5 billion USD Eurobond to refinance 2027 maturity,Mwananchi,Debt,Positive,2189,2.9,4.5
+2024-03-15,Inflation at 3.0% in February nears historical lows unseen since pre-pandemic period,Business Daily Africa,Inflation,Positive,2187,3.0,4.5
+2024-03-20,Tanzania SGR Phase 1 civil works reach 38% completion ahead of revised schedule,The EastAfrican,Investment,Positive,2185,2.9,4.5
+2024-03-25,El Niño related flooding disrupts Kilombero sugar cane and rice production zones,Reuters Africa,Agriculture,Negative,2190,3.2,4.5
+2024-03-28,Government emergency supplementary budget of 800 billion shillings approved for flood relief,Bloomberg Africa,Budget,Negative,2193,3.2,4.5
+2024-04-01,Flood damage to rural feeder roads estimated at 200 billion shillings by TANROADS,Mwananchi,Budget,Negative,2195,3.3,4.5
+2024-04-03,"Shilling under pressure at 2,195 as flood disruptions raise import requirements",Daily News,Forex,Negative,2195,3.3,4.5
+2024-04-08,Inflation climbs to 3.4% in March as food supply disruption from flooding feeds through,The Citizen,Inflation,Negative,2197,3.4,4.5
+2024-04-10,NBS publishes Q4 2023 GDP national accounts confirming 5.5% growth for year,Business Daily Africa,Policy,Neutral,2196,3.3,4.5
+2024-04-11,TANESCO emergency power procurement costs rise following hydrology impact on JNHPP,Mwananchi,Energy,Negative,2200,3.4,4.5
+2024-04-14,Insurance sector losses from El Niño flooding exceed 50 billion shillings in estimates,Business Daily Africa,Regulation,Negative,2197,3.4,4.5
+2024-04-16,Tanzania TRA launches risk-based tax audit program targeting digital economy,Business Daily Africa,Taxation,Neutral,2197,3.3,4.5
+2024-04-19,Bank of Tanzania holds rate at 4.5% monitoring food price spike from weather shock,The EastAfrican,Policy,Neutral,2195,3.4,4.5
+2024-04-24,CRDB Bank increases agri-lending provisions amid flood damage assessments,Reuters Africa,Banking,Negative,2199,3.5,4.5
+2024-04-29,DSE equities under pressure as institutional investors de-risk amid uncertainty,Bloomberg Africa,Markets,Negative,2202,3.5,4.5
+2024-05-03,Tanzania receives 250 million USD World Bank emergency resilience facility,Daily News,Debt,Positive,2197,3.4,4.5
+2024-05-06,Tanzania banks increase non-performing loan provisions by 18% due to flood aftermath,The Citizen,Banking,Negative,2196,3.5,4.5
+2024-05-08,"Shilling stabilizes near 2,197 as emergency inflows offset flood import demand",The Citizen,Forex,Positive,2196,3.4,4.5
+2024-05-13,Rice and maize shortfall drives food inflation component to 5.1% in April,Mwananchi,Inflation,Negative,2199,3.7,4.5
+2024-05-16,Tanzania-Zambia TAZARA railway receives rehabilitation funding from AfDB,Business Daily Africa,Investment,Positive,2196,3.6,4.5
+2024-05-20,Bank of Tanzania releases Q1 2024 monetary policy committee statement,Reuters Africa,Policy,Neutral,2194,3.5,4.5
+2024-05-21,"Julius Nyerere Dam output recovers to 1,600 MW as Lake Nyasa inflows normalize",The EastAfrican,Energy,Positive,2193,3.5,4.5
+2024-05-24,TRA Q3 FY2023/24 revenue exceeds target despite flood disruptions to trade,Reuters Africa,Taxation,Positive,2190,3.4,4.5
+2024-05-27,Tourism bookings for H2 2024 down 8% from same period last year due to flood media coverage,The EastAfrican,Tourism,Negative,2192,3.6,4.5
+2024-05-29,Bank of Tanzania cuts policy rate to 4.0% as inflation outlook improves post-floods,Bloomberg Africa,Policy,Positive,2187,3.4,4.0
+2024-06-04,Tanzania government presents 51.0 trillion shilling national budget for FY2024/25,Daily News,Budget,Neutral,2185,3.3,4.0
+2024-06-09,CRDB Bank H1 2024 profit guidance raised following strong Q1 performance,The Citizen,Banking,Positive,2182,3.2,4.0
+2024-06-10,Tanzania SME credit demand survey shows tightened lending standards persisting,Reuters Africa,Banking,Negative,2183,3.3,4.0
+2024-06-12,Inflation moderates to 3.4% in May as food prices begin normalizing post-floods,Mwananchi,Inflation,Positive,2180,3.4,4.0
+2024-06-17,Tanzania tea earnings rise 18% in first half as Mombasa benchmark strengthens,Business Daily Africa,Agriculture,Positive,2178,3.2,4.0
+2024-06-20,"Shilling firms through 2,180 as trade account improves and rate cut supports sentiment",The EastAfrican,Forex,Positive,2177,3.2,4.0
+2024-06-25,DSE all-share index rises 6.8% in Q2 as confidence rebuilds,Reuters Africa,Markets,Positive,2175,3.1,4.0
+2024-06-26,Tanzania updates anti-money laundering guidelines for digital asset intermediaries,Bloomberg Africa,Regulation,Neutral,2176,3.2,4.0
+2024-06-28,NMB Bank launches green mortgage product with IFC co-financing support,Bloomberg Africa,Banking,Positive,2173,3.1,4.0
+2024-07-01,Government announces delay in rural electrification project rollout citing contractor dispute,Bloomberg Africa,Energy,Negative,2171,3.1,4.0
+2024-07-03,Vodacom Tanzania M-Pesa daily float crosses 500 billion shillings for first time,Daily News,Fintech,Positive,2170,3.0,4.0
+2024-07-08,Tanzania tourism earnings forecast for 2024 revised to 3.5 billion USD,The Citizen,Tourism,Positive,2168,3.0,4.0
+2024-07-11,Cashew farmer payout tops 450 billion shillings on strong crop and global demand,Mwananchi,Agriculture,Positive,2165,2.9,4.0
+2024-07-16,Bank of Tanzania foreign reserves rise to 6.2 months import cover,Business Daily Africa,Forex,Positive,2162,2.9,4.0
+2024-07-19,Tanzania 5-year bond yield drops below 10% for first time as rate cycle benefits markets,The EastAfrican,Debt,Positive,2160,2.9,4.0
+2024-07-23,NBS publishes revised national accounts incorporating new informal sector estimates,Daily News,Policy,Neutral,2163,3.0,4.0
+2024-07-24,IMF completes Tanzania program review confirming all quantitative targets met,Reuters Africa,Policy,Positive,2158,2.8,4.0
+2024-07-29,Private sector credit growth accelerates to 11.2% year-on-year,Bloomberg Africa,Banking,Positive,2156,2.8,4.0
+2024-08-01,Commodity price softness reduces Tanzania mining export receipts by 9% in Q2,Daily News,Trade,Negative,2153,2.8,4.0
+2024-08-02,Tanzania GDP grows 6.1% in Q1 2024 marking strongest quarterly expansion since 2019,Daily News,Policy,Positive,2154,2.8,4.0
+2024-08-07,JNHPP full commissioning boosts Tanzania power exports to Zambia and Kenya,The Citizen,Energy,Positive,2151,2.7,4.0
+2024-08-12,"Shilling appreciates to 2,148 as energy export revenues improve current account",Mwananchi,Forex,Positive,2148,2.7,4.0
+2024-08-15,Tanzania inflation lowest in five years at 2.8% as all main basket components ease,Business Daily Africa,Inflation,Positive,2146,2.8,4.0
+2024-08-20,Bank of Tanzania holds rate at 4.0% signaling current stance remains appropriate,The EastAfrican,Policy,Neutral,2147,2.8,4.0
+2024-08-23,TRA full year FY2023/24 revenue collection exceeds 20 trillion shillings for first time,Reuters Africa,Taxation,Positive,2144,2.7,4.0
+2024-08-27,TRA issues updated guidance on capital gains tax for listed securities,The Citizen,Taxation,Neutral,2143,2.7,4.0
+2024-08-28,DSE equity market closes August at record market capitalisation of 19.8 trillion shillings,Bloomberg Africa,Markets,Positive,2141,2.7,4.0
+2024-09-03,Tanzania SGR Phase 1 Dar-Morogoro section begins test operations,Daily News,Investment,Positive,2139,2.7,4.0
+2024-09-06,NMB Bank acquires majority stake in Equity Bank Tanzania in consolidation move,The Citizen,Banking,Positive,2137,2.6,4.0
+2024-09-09,Domestic sugar price surges 30% on delayed crushing season and import backlogs,Mwananchi,Inflation,Negative,2132,2.7,3.5
+2024-09-11,Tanzania launches East Africa's first carbon credit exchange platform,Mwananchi,Markets,Positive,2135,2.6,4.0
+2024-09-16,Agriculture sector growth of 8.1% in H1 2024 driven by cashew and horticulture,Business Daily Africa,Agriculture,Positive,2133,2.6,4.0
+2024-09-19,Bank of Tanzania cuts policy rate to 3.5% in surprise move citing below-target inflation,The EastAfrican,Policy,Positive,2130,2.6,3.5
+2024-09-24,"Shilling firms to 2,127 post BoT rate cut announcement",Reuters Africa,Forex,Positive,2127,2.5,3.5
+2024-09-27,CRDB Bank announces 15 billion shilling share buyback program,Bloomberg Africa,Markets,Positive,2125,2.5,3.5
+2024-09-30,Bank of Tanzania releases H1 2024 financial stability report,Mwananchi,Regulation,Neutral,2130,2.6,3.5
+2024-10-03,Tanzania FDI approvals for January to September 2024 reach 2.8 billion USD,Daily News,Investment,Positive,2122,2.5,3.5
+2024-10-07,DSE liquidity dries up in mid-session as pension fund selling dominates,Business Daily Africa,Markets,Negative,2121,2.6,3.5
+2024-10-08,Inflation at 2.6% in September well below target upper bound,The Citizen,Inflation,Positive,2120,2.6,3.5
+2024-10-11,Tanzania-India bilateral trade reaches 1.2 billion USD on agricultural and pharma flows,Mwananchi,Trade,Positive,2118,2.5,3.5
+2024-10-16,NMB Bank digital lending portfolio grows 67% year-on-year to 1.1 trillion shillings,Business Daily Africa,Fintech,Positive,2115,2.5,3.5
+2024-10-21,Treasury bond yields at 9.1% average signal further compression from rate cut,The EastAfrican,Debt,Positive,2113,2.4,3.5
+2024-10-22,CMSA publishes quarterly bulletin showing DSE market statistics for Q3 2024,The EastAfrican,Markets,Neutral,2112,2.5,3.5
+2024-10-24,CMSA approves Tanzania's first domestic ETF tracking DSE all-share index,Reuters Africa,Markets,Positive,2111,2.4,3.5
+2024-10-29,Bank of Tanzania maintains rate at 3.5% with inflation well anchored,Bloomberg Africa,Policy,Neutral,2110,2.4,3.5
+2024-11-02,Government announces revision of mining fiscal terms raising royalties on key minerals,The Citizen,Regulation,Negative,2109,2.4,3.5
+2024-11-04,Tourism receipts for January to September 2024 total 2.9 billion USD,Daily News,Tourism,Positive,2108,2.4,3.5
+2024-11-07,JNHPP dam power exports generate 180 million USD in regional electricity revenues,The Citizen,Energy,Positive,2106,2.3,3.5
+2024-11-12,Tanzania credit rating upgraded to B+ by Fitch on improved macro fundamentals,Mwananchi,Debt,Positive,2103,2.3,3.5
+2024-11-15,"Shilling approaches 2,100 threshold as reserve accumulation supports confidence",Business Daily Africa,Forex,Positive,2101,2.3,3.5
+2024-11-19,Tanzania publishes updated public procurement regulations for infrastructure,Business Daily Africa,Policy,Neutral,2102,2.4,3.5
+2024-11-20,Tanzania GDP growth forecast for full year 2024 revised to 6.5%,The EastAfrican,Policy,Positive,2099,2.3,3.5
+2024-11-25,Private sector wages in formal economy grow real 4.2% for first time in a decade,Reuters Africa,Policy,Positive,2097,2.3,3.5
+2024-11-28,DSE closes November with equities up 18.3% year-to-date,Bloomberg Africa,Markets,Positive,2095,2.2,3.5
+2024-12-03,Tanzania negotiates preferential green bond placement with European sovereign funds,Daily News,Debt,Positive,2093,2.2,3.5
+2024-12-04,NBS releases Q3 2024 GDP estimate at 6.3% confirming strong growth trajectory,Reuters Africa,Policy,Neutral,2091,2.3,3.5
+2024-12-06,Bank of Tanzania governor signals potential further easing in 2025 if inflation holds,The Citizen,Policy,Positive,2091,2.2,3.5
+2024-12-10,Tanzania experiences surge in commodity import costs as dollar briefly firms globally,The EastAfrican,Trade,Negative,2089,2.3,3.5
+2024-12-11,"Shilling closes at 2,089 marking 7.1% annual appreciation against dollar in 2024",Mwananchi,Forex,Positive,2089,2.2,3.5
+2024-12-16,CRDB Bank full year 2024 profit estimate raised to 310 billion shillings,Business Daily Africa,Banking,Positive,2087,2.2,3.5
+2024-12-19,Tanzania 2024 tourism revenue set to break 4 billion USD for first time in history,The EastAfrican,Tourism,Positive,2085,2.1,3.5
+2024-12-23,Year review: Tanzania among top 3 fastest growing economies in sub-Saharan Africa 2024,Reuters Africa,Policy,Positive,2083,2.1,3.5
+2024-12-27,End of year report: domestic banking sector NPL ratio falls to 5.6% lowest since 2015,Bloomberg Africa,Banking,Positive,2081,2.1,3.5
+2025-01-06,Bank of Tanzania cuts policy rate to 3.0% citing sustained disinflation and growth mandate,Daily News,Policy,Positive,2078,2.1,3.0
+2025-01-09,"Shilling opens 2025 at 2,073 reflecting fourth consecutive year of net appreciation",The Citizen,Forex,Positive,2073,2.0,3.0
+2025-01-13,Bank of Tanzania publishes 2025 monetary policy framework and inflation targets,Bloomberg Africa,Policy,Neutral,2071,2.1,3.0
+2025-01-14,Tanzania issues 2 billion USD Eurobond at 8.75% as investor demand triples allocation,Mwananchi,Debt,Positive,2070,2.0,3.0
+2025-01-17,CRDB Bank launches East Africa's first digital trade finance platform,Business Daily Africa,Fintech,Positive,2068,2.0,3.0
+2025-01-20,Contractors in SGR Dodoma-Tabora section flag payment delays of three months,Reuters Africa,Investment,Negative,2067,2.1,3.0
+2025-01-22,Tanzania GDP growth rate for 2024 confirmed at 6.4% by National Bureau of Statistics,The EastAfrican,Policy,Positive,2065,2.0,3.0
+2025-01-27,Inflation at 2.1% in December 2024 remains below lower bound of historical target range,Reuters Africa,Inflation,Positive,2063,2.1,3.0
+2025-01-30,Tanzania ranked 4th in Africa for ease of cross-border trade in 2025 World Bank index,Bloomberg Africa,Trade,Positive,2061,2.0,3.0
+2025-02-04,Bank of Tanzania reports banking sector return on equity improves to 16.8%,Daily News,Banking,Positive,2059,2.0,3.0
+2025-02-07,Foreign reserves reach 7.1 months import cover highest level in central bank history,The Citizen,Forex,Positive,2057,1.9,3.0
+2025-02-10,Tanzania power sector reform delays raise concern among private generators,Bloomberg Africa,Energy,Negative,2053,1.9,3.0
+2025-02-12,Tanzania SGR Morogoro-Dodoma contract awarded after competitive international tender,Mwananchi,Investment,Positive,2055,1.9,3.0
+2025-02-17,DSE market capitalisation crosses 22 trillion shillings on sustained bull run,Business Daily Africa,Markets,Positive,2052,1.9,3.0
+2025-02-19,Tanzania issues updated insurance sector regulations under new Insurance Act,Daily News,Regulation,Neutral,2050,1.9,3.0
+2025-02-20,NMB Bank reports total digital transaction value for 2024 exceeded 80 trillion shillings,The EastAfrican,Fintech,Positive,2050,1.9,3.0
+2025-02-25,Tanzania agriculture export earnings for 2024 reach record 2.1 billion USD,Reuters Africa,Agriculture,Positive,2048,1.8,3.0
+2025-02-28,Bank of Tanzania holds rate at 3.0% noting inflation within target and growth on track,Bloomberg Africa,Policy,Neutral,2047,1.9,3.0
+2025-03-04,Electricity tariff cut of 8% approved as JNHPP reduces TANESCO generation costs,Daily News,Energy,Positive,2044,1.8,3.0
+2025-03-07,Tanzania-Mozambique cross-border payment corridor launched by CRDB and BCI,The Citizen,Fintech,Positive,2042,1.8,3.0
+2025-03-10,Rural bank branches closing at accelerating rate as digital shift leaves gaps,Daily News,Banking,Negative,2040,1.9,3.0
+2025-03-12,"Tanzanian shilling firms to 2,038 on energy trade surplus and portfolio inflows",Mwananchi,Forex,Positive,2038,1.8,3.0
+2025-03-17,Inflation edges to 2.0% in February remaining near historical low territory,Business Daily Africa,Inflation,Positive,2036,2.0,3.0
+2025-03-20,Bank of Tanzania cuts policy rate to 2.5% in landmark easing move,The EastAfrican,Policy,Positive,2034,2.0,2.5
+2025-03-25,Tanzania GDP growth target of 7.0% for 2025 endorsed by IMF as credible,Reuters Africa,Policy,Positive,2031,1.9,2.5
+2025-03-26,CMSA releases green finance taxonomy framework for capital markets,The Citizen,Regulation,Neutral,2032,1.9,2.5
+2025-03-28,DSE records largest foreign portfolio inflow quarter in exchange history,Bloomberg Africa,Markets,Positive,2029,1.9,2.5
+2025-04-02,Treasury bond yields approach 8% range as monetary easing transmits to term premium,Daily News,Debt,Positive,2027,1.9,2.5
+2025-04-04,Food commodity price volatility in Dodoma and Mbeya markets unsettles farmer planning,Mwananchi,Agriculture,Negative,2028,1.9,2.5
+2025-04-07,Tanzania named preferred destination for sustainable tourism by global travel body,The Citizen,Tourism,Positive,2025,1.8,2.5
+2025-04-10,NMB Bank launches robo-advisory investment platform for retail clients,Mwananchi,Fintech,Positive,2023,1.8,2.5
+2025-04-11,NBS publishes Q4 2024 GDP national accounts confirming 6.4% annual growth,Mwananchi,Policy,Neutral,2020,1.8,2.5
+2025-04-15,"Shilling strengthens to 2,019 nearing psychological two thousand level",Business Daily Africa,Forex,Positive,2019,1.8,2.5
+2025-04-18,Tanzania FDI approvals for Q1 2025 total 850 million USD,The EastAfrican,Investment,Positive,2017,1.7,2.5
+2025-04-23,CRDB Bank profit for Q1 2025 rises 22% year-on-year to 82 billion shillings,Reuters Africa,Banking,Positive,2015,1.7,2.5
+2025-04-28,Bank of Tanzania holds at 2.5% citing benign inflation and growth momentum,Bloomberg Africa,Policy,Neutral,2014,1.8,2.5
